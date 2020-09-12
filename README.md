@@ -17,7 +17,7 @@ How to install?
 ![folder_structure](gitassets/mods.png)
 
 
-4. Upon reloading the game, you should find 1CC-5CC in "Select Maps To Randomize"
+4. Upon reloading the game, you should find 1CC-5CC and 7CC in "Select Maps To Randomize"
 
 ![folder_structure](gitassets/maps2.png)
 
@@ -43,7 +43,7 @@ Ezel - **Creator of the CC-Sides**
 
 **Configuration Files:**
 
-Mnstrman06 **(1CC, 2CC, 3CC)**
+Mnstrman06 **(1CC, 2CC, 3CC, 7CC)**
 
 [nebs13](https://github.com/nebs13/) **(1CC, 2CC, 4CC, 5CC)**
 
