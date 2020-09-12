@@ -43,7 +43,7 @@ Ezel - **Creator of the CC-Sides**
 
 **Configuration Files:**
 
-Mnstrman06 **(1CC, 2CC, 3CC, 7CC)**
+Mnstrman06 **(1CC, 2CC, 3CC, 6CC, 7CC)**
 
 [nebs13](https://github.com/nebs13/) **(1CC, 2CC, 4CC, 5CC)**
 
