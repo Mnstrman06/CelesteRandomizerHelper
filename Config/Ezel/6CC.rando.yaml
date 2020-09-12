@@ -20,7 +20,7 @@ ASide:
    Holes: 
    - Side: Left
      Idx: 0
-     Kind: inout
+     Kind: in
    - Side: Down
      Idx: 0
      Kind: none
@@ -32,7 +32,7 @@ ASide:
      Kind: none
    - Side: Right
      Idx: 0
-     Kind: inout
+     Kind: out
      ReqBoth:
          Or:
          - Dashes: two
