@@ -19,7 +19,7 @@ How to install?
 
 4. Upon reloading the game, you should find 1CC-5CC in "Select Maps To Randomize"
 
-
+![folder_structure](gitassets/maps2.png)
 
 Bug Reports
 -
