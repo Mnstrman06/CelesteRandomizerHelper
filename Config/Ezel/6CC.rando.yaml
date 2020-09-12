@@ -1,0 +1,198 @@
+ASide: 
+ - Room: "F-01"
+   Holes: 
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: inout
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+ - Room: "F-02"
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: inout
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: normal
+         - Dashes: one
+           Difficulty: hard
+ - Room: "F-03"
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: inout
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: normal
+         - Dashes: one
+           Difficulty: hard
+ - Room: "F-04"
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: inout
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: normal
+         - Dashes: one
+           Difficulty: hard
+ - Room: "F-05"
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: inout
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+ - Room: "F-06"
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Down
+     Idx: 5
+     Kind: none
+   - Side: Down
+     Idx: 6
+     Kind: none
+   - Side: Down
+     Idx: 7
+     Kind: none
+   - Side: Down
+     Idx: 8
+     Kind: none
+   - Side: Down
+     Idx: 9
+     Kind: none
+   - Side: Down
+     Idx: 10
+     Kind: none
+   - Side: Down
+     Idx: 11
+     Kind: none
+   - Side: Down
+     Idx: 12
+     Kind: none
+   - Side: Down
+     Idx: 13
+     Kind: none
+   - Side: Down
+     Idx: 14
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 4
+     Kind: none
+   - Side: Up
+     Idx: 5
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: inout
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: expert
+ - Room: "F-Cassette"
+   End: true
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: none
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: normal
+         - Dashes: one
+           Difficulty: hard
+         - Dashes: zero
+           Difficulty: expert
