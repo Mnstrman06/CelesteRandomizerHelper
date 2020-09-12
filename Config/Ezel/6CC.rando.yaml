@@ -57,10 +57,10 @@ ASide:
    Holes: 
    - Side: Left
      Idx: 0
-     Kind: inout
+     Kind: in
    - Side: Right
      Idx: 0
-     Kind: inout
+     Kind: out
      ReqBoth:
          Or:
          - Dashes: two
