@@ -56,7 +56,7 @@ ASide:
       Kind: inout
     - Side: Right
       Idx: 0
-      Kind: inout
+      Kind: out
       ReqOut:
         Dashes: one
         Difficulty: hard
