@@ -1,0 +1,364 @@
+ASide:
+ - Room: "G-01"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Left
+     Idx: 0
+     Kind: none
+   - Side: Left
+     Idx: 1
+     Kind: none
+   - Side: Left
+     Idx: 2
+     Kind: none
+   - Side: Left
+     Idx: 3
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: out
+     ReqBoth:
+           Dashes: two
+           Difficulty: hard
+ - Room: "G-02"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Down
+     Idx: 5
+     Kind: none
+   - Side: Down
+     Idx: 6
+     Kind: none
+   - Side: Down
+     Idx: 7
+     Kind: none
+   - Side: Down
+     Idx: 8
+     Kind: none
+   - Side: Down
+     Idx: 9
+     Kind: none
+   - Side: Down
+     Idx: 10
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: out
+     ReqBoth:
+           Dashes: two
+           Difficulty: expert
+ - Room: "G-03"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: none
+   - Side: Left
+     Idx: 1
+     Kind: none
+   - Side: Left
+     Idx: 2
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 1
+     Kind: none
+   - Side: Right
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Up
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Dashes: two
+         Difficulty: expert
+ - Room: "G-04"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Down
+     Idx: 5
+     Kind: none
+   - Side: Down
+     Idx: 6
+     Kind: none
+   - Side: Down
+     Idx: 7
+     Kind: none
+   - Side: Down
+     Idx: 8
+     Kind: none
+   - Side: Down
+     Idx: 9
+     Kind: none
+   - Side: Down
+     Idx: 10
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 4
+     Kind: none
+   - Side: Up
+     Idx: 5
+     Kind: out
+     ReqBoth:
+          Dashes: two
+          Difficulty: expert
+ - Room: "G-05"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Down
+     Idx: 5
+     Kind: none
+   - Side: Down
+     Idx: 6
+     Kind: none
+   - Side: Down
+     Idx: 7
+     Kind: none
+   - Side: Down
+     Idx: 8
+     Kind: none
+   - Side: Down
+     Idx: 9
+     Kind: none
+   - Side: Down
+     Idx: 10
+     Kind: none
+   - Side: Down
+     Idx: 11
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: out
+     ReqBoth:
+           Dashes: two
+           Difficulty: expert
+ - Room: "G-06"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Up
+     Idx: 0
+     Kind: out
+     ReqBoth:
+           Dashes: two
+           Difficulty: hard
+ - Room: "G-07a"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Up
+     Idx: 0
+     Kind: out
+     ReqBoth:
+           Dashes: two
+           Difficulty: hard
+ - Room: "G-07b"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: out
+     ReqBoth:
+           Dashes: two
+           Difficulty: expert
+ - Room: "G-07c"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: out
+     ReqBoth:
+           Dashes: two
+           Difficulty: expert
+ - Room: "G-07d"
+   Holes:
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 4
+     Kind: none
+   - Side: Up
+     Idx: 5
+     Kind: none
+   - Side: Up
+     Idx: 6
+     Kind: out
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: in
+     ReqBoth:
+           Dashes: two
+           Difficulty: expert
+ - Room: "G-07e"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Left
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Dashes: two
+ - Room: "G-Cassette"
+   End: true
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Left
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: none
+     ReqBoth:
+           Dashes: two
+           Difficulty: hard
