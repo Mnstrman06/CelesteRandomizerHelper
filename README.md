@@ -1,7 +1,7 @@
 # Celeste-Modded-Randomizer
 A Mod for the [Celeste Randomizer](https://github.com/rhelmot/CelesteRandomizer) Mod which adds Custom Map Support to the Randomizer. You can download the Celeste Randomizer mod [here](https://gamebanana.com/tools/6848).
 -
-This mod currently only supports Ezel's CC-Sides 1CC-5CC.
+This mod currently only supports [Ezel's CC-Sides](https://gamebanana.com/maps/207309) 1CC-5CC.
 
 Overtime this will be expanded to support other mods and the other CC-Sides.
 
