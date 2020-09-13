@@ -16,7 +16,7 @@ ASide:
    - Side: Right
      Idx: 0
      Kind: inout
-     InternalEdges:
+   InternalEdges:
      - Split: LeftToRight
        ReqOut:
          Dashes: one
@@ -57,7 +57,7 @@ ASide:
    - Side: Right
      Idx: 0
      Kind: inout
-     InternalEdges:
+   InternalEdges:
      - Split: LeftToRight
        ReqOut:
          - Dashes: one
@@ -76,11 +76,11 @@ ASide:
    - Side: Up
      Idx: 0 
      Kind: inout
-     InternalEdges:
+   InternalEdges:
      - To: "bottom"
        ReqOut:
          Dashes: one
-     Subrooms:
+   Subrooms:
      - Room: "bottom"
      - Collectable: 0
        ReqBoth:
@@ -200,7 +200,7 @@ ASide:
    - Side: Right
      Idx: 0
      Kind: inout
-     InternalEdges:
+   InternalEdges:
      - Split: LeftToRight
        ReqOut:
          Or:
