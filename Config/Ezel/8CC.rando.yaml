@@ -1,0 +1,200 @@
+ASide: 
+ - Room: "H-00" # currently can't be added because of heart barrier
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: none
+ - Room: "H-01"
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Down
+     Idx: 5
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: inout
+     ReqBoth:
+           Dashes: two
+           Difficulty: hard
+ - Room: "H-02"
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Down
+     Idx: 0 
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 0 
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: inout
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: expert
+         - Dashes: zero
+           Difficulty: perfect
+ - Room: "H-03"
+   Holes: 
+   - Side: Down
+     Idx: 0
+     Kind: in # Tweak to remove a part of the platform to allow the room to be exited reverse
+   - Side: Down
+     Idx: 1 
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 0 
+     Kind: inout
+   - Side: Up
+     Idx: 1 
+     Kind: none
+   - Side: Up
+     Idx: 2 
+     Kind: none
+     ReqBoth:
+         Or:
+         - Dashes: one
+           Difficulty: perfect
+         - Dashes: two
+           Difficulty: hard
+ - Room: "H-04"
+   Holes: 
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Up
+     Idx: 0 
+     Kind: out
+     ReqBoth:
+           Dashes: two
+           Difficulty: hard
+ - Room: "H-05"
+   Holes: 
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 0 
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: inout
+     ReqBoth:
+           Dashes: two
+           Difficulty: hard
+ - Room: "H-06"
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Down
+     Idx: 0 
+     Kind: none
+   - Side: Down
+     Idx: 1 
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4 
+     Kind: none
+   - Side: Down
+     Idx: 5 
+     Kind: none
+   - Side: Down
+     Idx: 6 
+     Kind: none
+   - Side: Down
+     Idx: 7 
+     Kind: none
+   - Side: Up
+     Idx: 0 
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2 
+     Kind: none
+   - Side: Up
+     Idx: 3 
+     Kind: none
+   - Side: Up
+     Idx: 4 
+     Kind: none
+   - Side: Up
+     Idx: 5 
+     Kind: none
+   - Side: Up
+     Idx: 6
+     Kind: none
+   - Side: Right
+     Idx: 0 
+     Kind: inout
+     ReqBoth:
+           Dashes: two
+           Difficulty: expert
+ - Room: "H-Cassette"
+   End: true
+   Holes: 
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Up
+     Idx: 0 
+     Kind: none
+   - Side: Down
+     Idx: 0 
+     Kind: none
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: perfect
