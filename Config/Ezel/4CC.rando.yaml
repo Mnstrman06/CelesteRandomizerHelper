@@ -96,13 +96,13 @@ ASide:
       Kind: inout
     - Side: Up
       Idx: 0
-      Kind: inout
+      Kind: in
       ReqOut:
         Dashes: one
         Difficulty: hard
     - Side: Up
       Idx: 1
-      Kind: inout
+      Kind: unknown
     - Side: Down
       Idx: 0
       Kind: none
@@ -139,7 +139,7 @@ ASide:
       Kind: inout
     - Side: Right
       Idx: 0
-      Kind: inout
+      Kind: out
       ReqOut:
         Or:
         - Dashes: two

@@ -57,20 +57,20 @@ ASide:
    - Side: Right
      Idx: 0
      Kind: inout
-   InternalEdges:
-     - Split: LeftToRight
-       ReqOut:
-         - Dashes: one
-           Difficulty: hard
-       ReqIn:
-         Or:
-         - Dashes: one
-           Difficulty: hard
-           Key: true
-           KeyholeID: 196
-         - Dashes: two
-           Key: true
-           KeyholeID: 196
+#  InternalEdges:
+#    - Split: LeftToRight
+#      ReqOut:
+#          Dashes: one
+#          Difficulty: hard           for some reason this crashes so its been removed until somebody smart can fix
+     ReqBoth:
+        Or:
+        - Dashes: one
+          Difficulty: hard
+          Key: true
+          KeyholeID: 196
+        - Dashes: two
+          Key: true
+          KeyholeID: 196
  - Room: "C-03"
    Holes:
    - Side: Up
@@ -78,11 +78,11 @@ ASide:
      Kind: inout
    InternalEdges:
      - To: "bottom"
+     - Collectable: 0
        ReqOut:
          Dashes: one
    Subrooms:
      - Room: "bottom"
-     - Collectable: 0
        ReqBoth:
            Or:
            - Dashes: one
