@@ -1,0 +1,1219 @@
+ASide:
+ - Room: "I-01a"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+ - Room: "I-01b"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+ - Room: "I-01c"
+   Holes:
+   - Side: Right
+     Idx: 0
+     Kind: out
+   - Side: Left
+     Idx: 0
+     Kind: in
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+ - Room: "I-02a"
+   Hub: true
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Left
+     Idx: 1
+     Kind: inout
+   - Side: Up
+     Idx: 0
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: inout
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+           Key: true
+           KeyholeID: 1252 # 2nd keyhole id is 1253
+         - Dashes: one
+           Difficulty: hard
+           Key: true
+           KeyholeID: 1252 # 2nd keyhole id is 1253
+         - Dashes: one
+           Difficulty: expert
+           Key: false
+ - Room: "I-02b"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Left
+     Idx: 0
+     Kind: inout
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+         - Dashes: zero
+           Difficulty: hard
+   InternalEdges:
+     - Split: "right"
+   Subrooms:
+   - Room: "right"
+   - Collectable: 0 
+     ReqOut:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+         - Dashes: zero
+           Difficulty: hard
+ - Room: "I-02c"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Down
+     Idx: 5
+     Kind: none
+   - Side: Down
+     Idx: 6
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 4
+     Kind: none
+   - Side: Up
+     Idx: 5
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: inout
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+   InternalEdges:
+     - Split: "left"
+   Subrooms:
+   - Room: "left"
+   - Collectable: 0 
+     ReqOut:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+ - Room: "I-03a"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+ - Room: "I-03b"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Left
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+ - Room: "I-03c"
+   Holes:
+   - Side: Up
+     Idx: 0
+     Kind: in
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: expert
+ - Room: "I-04tutorial"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Down
+     Idx: 5
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+ - Room: "I-04a"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: expert
+ - Room: "I-04b"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: inout
+   InternalEdges:
+     - Split: LeftToRight
+       ReqOut:
+         Or:
+         - Dashes: one
+           Difficulty: perfect
+         - Dashes: two
+           Difficulty: expert
+       ReqIn:
+         - Dashes: two
+           Difficulty: perfect
+ - Room: "I-04c"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: inout
+   InternalEdges:
+     - Split: LeftToRight
+       ReqOut:
+         Or:
+         - Dashes: one
+           Difficulty: expert
+         - Dashes: two
+           Difficulty: expert
+       ReqIn:
+         Or:
+         - Dashes: two
+           Difficulty: expert
+ - Room: "I-05a"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: expert
+         - Dashes: one
+           Difficulty: expert
+ - Room: "I-05b"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: expert
+ - Room: "I-05c"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Down
+     Idx: 5
+     Kind: none
+   - Side: Down
+     Idx: 6
+     Kind: none
+   - Side: Down
+     Idx: 7
+     Kind: none
+   - Side: Down
+     Idx: 8
+     Kind: none
+   - Side: Down
+     Idx: 9
+     Kind: none
+   - Side: Down
+     Idx: 10
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 4
+     Kind: none
+   - Side: Up
+     Idx: 5
+     Kind: out
+   - Side: Right
+     Idx: 0
+     Kind: none
+   - Side: Left
+     Idx: 0
+     Kind: in
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: expert
+ - Room: "I-06a"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Left
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: out
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 4
+     Kind: none
+   - Side: Up
+     Idx: 5
+     Kind: none
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+ - Room: "I-06b"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Right
+     Idx: 0
+     Kind: out
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 4
+     Kind: none
+   - Side: Up
+     Idx: 5
+     Kind: none
+   - Side: Up
+     Idx: 6
+     Kind: none
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: expert
+         - Dashes: one
+           Difficulty: perfect
+ - Room: "I-06c"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Right
+     Idx: 0
+     Kind: out
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Down
+     Idx: 5
+     Kind: none
+   - Side: Down
+     Idx: 6
+     Kind: none
+   - Side: Down
+     Idx: 7
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 4
+     Kind: none
+   - Side: Up
+     Idx: 5
+     Kind: none
+   - Side: Up
+     Idx: 6
+     Kind: none
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: expert
+ - Room: "I-07a"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Right
+     Idx: 0
+     Kind: out
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Down
+     Idx: 5
+     Kind: none
+   - Side: Down
+     Idx: 6
+     Kind: none
+   - Side: Down
+     Idx: 7
+     Kind: none
+   - Side: Down
+     Idx: 8
+     Kind: none
+   - Side: Down
+     Idx: 9
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 4
+     Kind: none
+   - Side: Up
+     Idx: 5
+     Kind: none
+   - Side: Up
+     Idx: 6
+     Kind: none
+   - Side: Up
+     Idx: 7
+     Kind: none
+   - Side: Up
+     Idx: 8
+     Kind: none
+   - Side: Up
+     Idx: 9
+     Kind: none
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: expert
+ - Room: "I-07b"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Right
+     Idx: 0
+     Kind: out
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 4
+     Kind: none
+   - Side: Up
+     Idx: 5
+     Kind: none
+   - Side: Up
+     Idx: 6
+     Kind: none
+   - Side: Up
+     Idx: 7
+     Kind: none
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Down
+     Idx: 3
+     Kind: none
+   - Side: Down
+     Idx: 4
+     Kind: none
+   - Side: Down
+     Idx: 5
+     Kind: none
+   - Side: Down
+     Idx: 6
+     Kind: none
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: perfect
+ - Room: "I-07c"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Right
+     Idx: 0
+     Kind: out
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 4
+     Kind: none
+   - Side: Up
+     Idx: 5
+     Kind: none
+   - Side: Up
+     Idx: 6
+     Kind: none
+   - Side: Up
+     Idx: 7
+     Kind: none
+   - Side: Up
+     Idx: 8
+     Kind: none
+   - Side: Up
+     Idx: 9
+     Kind: none
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+ - Room: "I-08a"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: expert
+         - Dashes: one
+           Difficulty: expert
+ - Room: "I-08b"
+   Hub: true
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Right
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 1
+     Kind: inout
+   - Side: Right
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Dashes: one
+ - Room: "I-moon1"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Up
+     Idx: 0
+     Kind: inout
+   - Side: Up
+     Idx: 1
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Dashes: one
+ - Room: "I-moon3"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Down
+     Idx: 1
+     Kind: inout
+   - Side: Left
+     Idx: 0
+     Kind: none
+     ReqBoth:
+         Dashes: zero
+ - Room: "I-moon2"
+   Hub: true
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: none
+   - Side: Left
+     Idx: 1
+     Kind: inout
+   - Side: Left
+     Idx: 2
+     Kind: inout
+   - Side: Down
+     Idx: 0
+     Kind: in
+   - Side: Down
+     Idx: 1
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 1
+     Kind: inout
+   - Side: Right
+     Idx: 2
+     Kind: inout
+   - Side: Right
+     Idx: 3
+     Kind: inout
+   - Side: Up
+     Idx: 0
+     Kind: out
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Key: true
+           KeyholeID: 11666
+         - Dashes: one
+           Key: true
+           KeyholeID: 11666
+   InternalEdges:
+     - Split: "up"
+   Subrooms:
+   - Room: "up"
+   - Collectable: 0
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Key: true
+           KeyholeID: 11666
+         - Dashes: one
+           Key: true
+           KeyholeID: 11666
+ - Room: "I-moonremembered"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Left
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 2
+     Kind: none
+   - Side: Right
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: out
+   - Side: Up
+     Idx: 1
+     Kind: in
+   - Side: Right
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 1
+     Kind: none
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: expert
+         - Dashes: one
+           Difficulty: expert
+   InternalEdges:
+     - To: "up"
+   Subrooms:
+   - Room: "up"
+   - Collectable: 0
+     ReqOut:
+         Or:
+         - Dashes: two
+           Difficulty: expert
+         - Dashes: one
+           Difficulty: expert
+ - Room: "I-moonsingusource"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Left
+     Idx: 0
+     Kind: inout
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+   InternalEdges:
+     - Split: "right"
+   Subrooms:
+   - Room: "right"
+   - Collectable: 0
+     ReqOut:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+ - Room: "I-moonhorizonation"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 3
+     Kind: none
+   - Side: Up
+     Idx: 4
+     Kind: none
+   - Side: Left
+     Idx: 0
+     Kind: inout
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: expert
+   InternalEdges:
+     - Split: "left"
+   Subrooms:
+   - Room: "left"
+   - Collectable: 0
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: expert
+ - Room: "I-moonstubborness"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: inout
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+         - Dashes: zero
+           Difficulty: hard
+   InternalEdges:
+     - Split: "up"
+   Subrooms:
+   - Room: "up"
+     ReqOut:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+         - Dashes: zero
+           Difficulty: hard
+ - Room: "I-moonreconciliation"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
+   - Side: Up
+     Idx: 0
+     Kind: none
+   - Side: Up
+     Idx: 1
+     Kind: none
+   - Side: Up
+     Idx: 2
+     Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: none
+   - Side: Right
+     Idx: 1
+     Kind: none
+   InternalEdges:
+     - Split: "right"
+   Subrooms:
+   - Room: "right"
+   - Collectable: 0
+     ReqBoth:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
+         - Dashes: zero
+           Difficulty: hard
+ - Room: "end-granny" # golden room can't be added because there is no hole you can enter it from
+   End: true
+   Holes:
+   - Side: Up
+     Idx: 0
+     Kind: inout
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: inout

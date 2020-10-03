@@ -78,12 +78,10 @@ ASide:
      Kind: inout
    InternalEdges:
      - To: "bottom"
-     - Collectable: 0
-       ReqOut:
-         Dashes: one
    Subrooms:
      - Room: "bottom"
-       ReqBoth:
+     - Collectable: 0
+       ReqOut:
            Or:
            - Dashes: one
              Difficulty: hard
