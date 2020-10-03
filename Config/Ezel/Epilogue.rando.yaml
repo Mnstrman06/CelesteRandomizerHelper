@@ -1,0 +1,42 @@
+ASide:
+ - Room: "J-01"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: inout
+ - Room: "J-02"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: inout
+ - Room: "J-03"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: inout
+ - Room: "J-04"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: inout
+ - Room: "J-05" 
+   End: true
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: inout
+   - Side: Right
+     Idx: 0
+     Kind: inout
