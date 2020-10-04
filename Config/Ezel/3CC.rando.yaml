@@ -57,20 +57,35 @@ ASide:
    - Side: Right
      Idx: 0
      Kind: inout
-#  InternalEdges:
-#    - Split: LeftToRight
-#      ReqOut:
-#          Dashes: one
-#          Difficulty: hard           for some reason this crashes so its been removed until somebody smart can fix
      ReqBoth:
-        Or:
-        - Dashes: one
-          Difficulty: hard
-          Key: true
-          KeyholeID: 196
-        - Dashes: two
-          Key: true
-          KeyholeID: 196
+          Or:
+          - Dashes: one
+            Difficulty: hard
+            Key: true
+            KeyholeID: 196
+          - Dashes: two
+            Key: true
+            KeyholeID: 196
+#   InternalEdges:
+#     - Split: LeftToRight
+ #      ReqOut:
+ #        Or:
+  #       - Dashes: one
+   #        Difficulty: hard
+    #       Key: true
+     #      KeyholeID: 196
+      #   - Dashes: two
+       #    Key: true
+        #   KeyholeID: 196
+      # ReqIn:
+       #   Or:
+        #  - Dashes: one
+         #   Difficulty: hard
+          #  Key: true
+      #      KeyholeID: 196
+       #   - Dashes: two
+        #    Key: true
+         #   KeyholeID: 196     reverse taken out of randomizer until a proper solution to this bug is found
  - Room: "C-03"
    Holes:
    - Side: Up
@@ -165,6 +180,16 @@ ASide:
    - Side: Right
      Idx: 0
      Kind: inout
+#   InternalEdges:
+#     - Split: LeftToRight
+#       ReqOut:
+#         Or:
+#         - Dashes: one
+#         - Dashes: two
+#       ReqIn:
+#         Or:
+#         - Dashes: one
+#         - Dashes: two       also taken out because 3cc jank™️
  - Room: "C-06"
    Holes:
    - Side: Down 
