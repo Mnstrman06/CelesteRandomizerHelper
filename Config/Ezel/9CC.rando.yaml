@@ -134,10 +134,10 @@ ASide:
          - Dashes: zero
            Difficulty: hard
    InternalEdges:
-     - Split: "right"
+     - To: "right"
+     - Collectable: 0 
    Subrooms:
    - Room: "right"
-   - Collectable: 0 
      ReqOut:
          Or:
          - Dashes: two
@@ -184,9 +184,6 @@ ASide:
    - Side: Up
      Idx: 4
      Kind: none
-   - Side: Up
-     Idx: 5
-     Kind: none
    - Side: Right
      Idx: 0
      Kind: inout
@@ -197,10 +194,10 @@ ASide:
          - Dashes: one
            Difficulty: hard
    InternalEdges:
-     - Split: "left"
+     - To: "left"
+     - Collectable: 0 
    Subrooms:
    - Room: "left"
-   - Collectable: 0 
      ReqOut:
          Or:
          - Dashes: two
@@ -387,7 +384,7 @@ ASide:
          - Dashes: two
            Difficulty: expert
        ReqIn:
-         - Dashes: two
+           Dashes: two
            Difficulty: perfect
  - Room: "I-04c"
    Holes:
@@ -927,7 +924,7 @@ ASide:
    Holes:
    - Side: Left
      Idx: 0
-     Kind: inout
+     Kind: in
    - Side: Up
      Idx: 0
      Kind: inout
@@ -963,7 +960,7 @@ ASide:
      Kind: inout
    - Side: Left
      Idx: 2
-     Kind: inout
+     Kind: in
    - Side: Down
      Idx: 0
      Kind: in
@@ -994,10 +991,10 @@ ASide:
            Key: true
            KeyholeID: 11666
    InternalEdges:
-     - Split: "up"
+     - To: "up"
+     - Collectable: 0 
    Subrooms:
    - Room: "up"
-   - Collectable: 0
      ReqBoth:
          Or:
          - Dashes: two
@@ -1043,9 +1040,9 @@ ASide:
            Difficulty: expert
    InternalEdges:
      - To: "up"
+     - Collectable: 0 
    Subrooms:
    - Room: "up"
-   - Collectable: 0
      ReqOut:
          Or:
          - Dashes: two
@@ -1079,10 +1076,10 @@ ASide:
          - Dashes: one
            Difficulty: hard
    InternalEdges:
-     - Split: "right"
+     - To: "right"
+     - Collectable: 0 
    Subrooms:
    - Room: "right"
-   - Collectable: 0
      ReqOut:
          Or:
          - Dashes: two
@@ -1125,10 +1122,10 @@ ASide:
          - Dashes: one
            Difficulty: expert
    InternalEdges:
-     - Split: "left"
+     - To: "left"
+     - Collectable: 0 
    Subrooms:
    - Room: "left"
-   - Collectable: 0
      ReqBoth:
          Or:
          - Dashes: two
@@ -1152,7 +1149,7 @@ ASide:
          - Dashes: zero
            Difficulty: hard
    InternalEdges:
-     - Split: "up"
+     - To: "up"
    Subrooms:
    - Room: "up"
      ReqOut:
@@ -1193,10 +1190,10 @@ ASide:
      Idx: 1
      Kind: none
    InternalEdges:
-     - Split: "right"
+     - To: "right"
+     - Collectable: 0 
    Subrooms:
    - Room: "right"
-   - Collectable: 0
      ReqBoth:
          Or:
          - Dashes: two
@@ -1210,7 +1207,7 @@ ASide:
    Holes:
    - Side: Up
      Idx: 0
-     Kind: inout
+     Kind: unknown
    - Side: Left
      Idx: 0
      Kind: inout

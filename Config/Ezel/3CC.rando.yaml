@@ -76,16 +76,21 @@ ASide:
    - Side: Up
      Idx: 0 
      Kind: inout
+     ReqBoth:
+         Or:
+         - Dashes: one
+           Difficulty: hard
+         - Dashes: two
    InternalEdges:
      - To: "bottom"
-   Subrooms:
-     - Room: "bottom"
      - Collectable: 0
-       ReqOut:
-           Or:
-           - Dashes: one
-             Difficulty: hard
-           - Dashes: two
+   Subrooms:
+   - Room: "bottom"
+     ReqOut:
+         Or:
+         - Dashes: one
+           Difficulty: hard
+         - Dashes: two
  - Room: "C-04"
    Holes:
    - Side: Left
