@@ -1223,3 +1223,9 @@ ASide:
    - Side: Right
      Idx: 0
      Kind: inout
+   Tweaks:
+   - Name: spring
+     Update:
+       Add: true
+       X: 160
+       Y: 160

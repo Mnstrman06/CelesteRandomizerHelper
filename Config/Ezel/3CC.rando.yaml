@@ -165,7 +165,7 @@ ASide:
      Kind: none
    - Side: Left
      Idx: 0
-     Kind: inout
+     Kind: unknown
      ReqOut: 
        Dashes: one
        Difficulty: perfect
@@ -174,12 +174,16 @@ ASide:
      Kind: inout
    - Side: Up
      Idx: 0
-     Kind: inout
+     Kind: unknown
      ReqOut:
        Dashes: two
    - Side: Right
      Idx: 0
      Kind: inout
+     ReqBoth:
+       Or:
+       - Dashes: one
+       - Dashes: two
 #   InternalEdges:
 #     - Split: LeftToRight
 #       ReqOut:

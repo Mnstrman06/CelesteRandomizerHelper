@@ -85,7 +85,7 @@ ASide:
       Kind: inout
     - Side: Left
       Idx: 1
-      Kind: inout
+      Kind: in
       ReqOut:
         Dashes: one
         Difficulty: hard
