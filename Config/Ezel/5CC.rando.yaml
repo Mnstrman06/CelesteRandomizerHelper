@@ -25,7 +25,7 @@ ASide:
     - Side: Up
       Idx: 1
       Kind: inout
-      ReqIn:
+      ReqBoth:
         Dashes: one
         Difficulty: hard
     Tweaks:
@@ -67,9 +67,15 @@ ASide:
     - Side: Left
       Idx: 0
       Kind: in
+      ReqIn:
+        Dashes: one
+        Difficulty: hard
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut:
+        Dashes: one
+        Difficulty: hard
     - Side: Down
       Idx: 0
       Kind: none
@@ -85,9 +91,6 @@ ASide:
     - Side: Down
       Idx: 4
       Kind: none
-      ReqBoth:
-        Dashes: one
-        Difficulty: hard
   - Room: "E-06"
     Holes:
     - Side: Left

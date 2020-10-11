@@ -71,17 +71,24 @@ ASide:
    - Side: Left
      Idx: 0
      Kind: inout
+     ReqOut:
+         Or:
+         - Dashes: one 
+           Difficulty: expert
+         - Dashes: two
+           Difficulty: hard
    - Side: Left
      Idx: 1
      Kind: inout
    - Side: Up
      Idx: 0
      Kind: inout
-   - Side: Right
-     Idx: 0
-     Kind: inout
-   InternalEdges:
-     - Split: TopToBottom
+     ReqIn:
+         Or:
+         - Dashes: one 
+           Difficulty: expert
+         - Dashes: two
+           Difficulty: hard
      ReqOut:
          Or:
          - Dashes: one
@@ -91,13 +98,27 @@ ASide:
          - Dashes: one
            Difficulty: expert
            Key: false
-     ReqIn:
-         Or:
-         - Dashes: one 
-           Difficulty: expert
-         - Dashes: two
-           Difficulty: hard
-    Tweaks:
+   - Side: Right
+     Idx: 0
+     Kind: inout
+#   InternalEdges:
+#     - Split: "TopToBottom"   
+#       ReqOut:
+#          Or:
+#          - Dashes: one
+#            Difficulty: hard
+#            Key: true
+#            KeyholeID: 1252 # 2nd keyhole id is 1253
+#          - Dashes: one
+#            Difficulty: expert
+#            Key: false
+#       ReqIn:
+#          Or:
+#          - Dashes: one 
+#            Difficulty: expert
+#          - Dashes: two
+#            Difficulty: hard
+   Tweaks:
     - Name: "exitBlock"
       ID: 491
       Update:
@@ -106,6 +127,10 @@ ASide:
       ID: 1188
       Update:
         Width: 96
+    - Name: "invisibleBarrier"
+      ID: 497
+      Update:
+        Remove: true
  - Room: "I-02b"
    Holes:
    - Side: Down
@@ -142,7 +167,7 @@ ASide:
          Dashes: zero
          Difficulty: hard
    InternalEdges:
-     - Collectable: 0 
+   - Collectable: 0 
      ReqOut:
          Dashes: zero
          Difficulty: hard
@@ -194,13 +219,13 @@ ASide:
          - Dashes: one
            Difficulty: hard
    InternalEdges:
-     - Collectable: 0 
+   - Collectable: 0 
      ReqOut:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: hard
+           Or:
+           - Dashes: two
+             Difficulty: hard
+           - Dashes: one
+             Difficulty: hard
  - Room: "I-03a"
    Holes:
    - Side: Down
@@ -850,9 +875,21 @@ ASide:
    - Side: Left
      Idx: 0
      Kind: in
+     ReqIn:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
    - Side: Right
      Idx: 0
      Kind: out
+     ReqOut:
+         Or:
+         - Dashes: two
+           Difficulty: hard
+         - Dashes: one
+           Difficulty: hard
    - Side: Down
      Idx: 0
      Kind: none
@@ -889,12 +926,6 @@ ASide:
    - Side: Up
      Idx: 9
      Kind: none
-     ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: hard
  - Room: "I-08a"
    Holes:
    - Side: Down
@@ -916,7 +947,6 @@ ASide:
          - Dashes: one
            Difficulty: expert
  - Room: "I-08b"
- #remove badeline orb because crash
    Hub: true
    Holes:
    - Side: Left
@@ -950,7 +980,7 @@ ASide:
      Kind: inout
    - Side: Up
      Idx: 0
-     Kind: inout
+     Kind: out
      ReqOut:
          Dashes: one
    - Side: Up
@@ -986,7 +1016,6 @@ ASide:
        Width: 16
        X: 104
  - Room: "I-moon2"
- # tweak the badeline orb at end and replace with feather because of crash on final throw 
    Hub: true
    Holes:
    - Side: Left
@@ -1028,7 +1057,7 @@ ASide:
          Key: true
          KeyholeID: 11666
    InternalEdges:
-     - Collectable: 0 
+   - Collectable: 0 
      ReqBoth:
          Or:
          - Dashes: two
@@ -1091,13 +1120,13 @@ ASide:
          - Dashes: one
            Difficulty: expert
    InternalEdges:
-     - Collectable: 0 
+   - Collectable: 0 
      ReqOut:
-         Or:
-         - Dashes: two
-           Difficulty: expert
-         - Dashes: one
-           Difficulty: expert
+           Or:
+           - Dashes: two
+             Difficulty: expert
+           - Dashes: one
+             Difficulty: expert
  - Room: "I-moonsingusource"
    Holes:
    - Side: Down
@@ -1125,13 +1154,13 @@ ASide:
          - Dashes: one
            Difficulty: hard
    InternalEdges:
-     - Collectable: 0 
+   - Collectable: 0 
      ReqOut:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: hard
+           Or:
+           - Dashes: two
+             Difficulty: hard
+           - Dashes: one
+             Difficulty: hard
  - Room: "I-moonhorizonation"
    Holes:
    - Side: Down
@@ -1168,13 +1197,13 @@ ASide:
          - Dashes: one
            Difficulty: expert
    InternalEdges:
-     - Collectable: 0 
+   - Collectable: 0 
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: expert
+           Or:
+           - Dashes: two
+             Difficulty: hard
+           - Dashes: one
+             Difficulty: expert
  - Room: "I-moonstubborness"
    Holes:
    - Side: Left
@@ -1187,7 +1216,7 @@ ASide:
          Dashes: zero
          Difficulty: hard
    InternalEdges:
-     - Collectable: 0
+   - Collectable: 0
      ReqOut:
          Dashes: zero
          Difficulty: hard
@@ -1227,8 +1256,7 @@ ASide:
      Idx: 1
      Kind: none
    InternalEdges:
-     - To: "right"
-     - Collectable: 0 
+   - Collectable: 0 
      ReqOut:
          Dashes: zero
          Difficulty: hard

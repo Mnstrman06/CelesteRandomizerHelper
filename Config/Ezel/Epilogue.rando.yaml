@@ -37,6 +37,12 @@ ASide:
    - Side: Right
      Idx: 0
      Kind: inout
+   Tweaks:
+   - Name: "booster"
+     Update:
+       Add: true
+       X: 800
+       Y: 88
  - Room: "J-05" 
    End: true
    Holes:

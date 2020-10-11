@@ -83,10 +83,13 @@ ASide:
     - Side: Left
       Idx: 0
       Kind: out
+      ReqOut:
+        Dashes: one
+        Difficulty: hard
     - Side: Left
       Idx: 1
       Kind: in
-      ReqOut:
+      ReqIn:
         Dashes: one
         Difficulty: hard
   - Room: "D-04"

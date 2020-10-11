@@ -151,11 +151,9 @@ ASide:
        - Dashes: one
        - Dashes: two
    InternalEdges:
-     - To: "left"
-   ReqBoth:
-       Or:
-       - Dashes: one
-       - Dashes: two
+   - To: "left"
+     ReqBoth:
+         Dashes: one
    Subrooms:
    - Room: "left"
    Holes:
@@ -180,6 +178,8 @@ ASide:
    - Side: Left
      Idx: 1
      Kind: inout
+     ReqOut: 
+       Dashes: one
    - Side: Up
      Idx: 0
      Kind: unknown
