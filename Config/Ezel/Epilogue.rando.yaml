@@ -37,6 +37,9 @@ ASide:
    - Side: Right
      Idx: 0
      Kind: inout
+   - Side: Down
+     Idx: 6
+     Kind: none
    Tweaks:
    - Name: "booster"
      Update:

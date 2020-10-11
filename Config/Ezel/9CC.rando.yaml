@@ -996,6 +996,93 @@ ASide:
      ID: 11654
      Update:
        Remove: true
+   - Name: "dashBlock"
+     Update:
+       Add: true
+       X: 224
+       Y: 48
+       Width: 32
+       Height: 56
+   - Name: "fgTiles"
+     X: 27
+     Y: 8
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 27
+     Y: 9
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 27
+     Y: 10
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 27
+     Y: 11
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 28
+     Y: 8
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 28
+     Y: 9
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 28
+     Y: 10
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 28
+     Y: 11
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 29
+     Y: 8
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 29
+     Y: 9
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 29
+     Y: 10
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 29
+     Y: 11
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 30
+     Y: 8
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 30
+     Y: 9
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 30
+     Y: 10
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 30
+     Y: 11
+     Update:
+       Tile: 0
  - Room: "I-moon3"
    Holes:
    - Side: Down
