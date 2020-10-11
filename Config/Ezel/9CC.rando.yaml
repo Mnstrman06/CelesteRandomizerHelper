@@ -1003,6 +1003,7 @@ ASide:
        Y: 48
        Width: 32
        Height: 56
+       Tiletype: Lostlevels
    - Name: "fgTiles"
      X: 27
      Y: 8
@@ -1080,6 +1081,26 @@ ASide:
        Tile: 0
    - Name: "fgTiles"
      X: 30
+     Y: 11
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 31
+     Y: 8
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 31
+     Y: 9
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 31
+     Y: 10
+     Update:
+       Tile: 0
+   - Name: "fgTiles"
+     X: 31
      Y: 11
      Update:
        Tile: 0
