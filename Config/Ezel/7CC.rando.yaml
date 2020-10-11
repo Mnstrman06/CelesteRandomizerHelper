@@ -1,4 +1,4 @@
-ASide:
+ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus 
  - Room: "G-01"
    Holes:
    - Side: Down

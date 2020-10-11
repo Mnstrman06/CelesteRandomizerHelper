@@ -82,7 +82,7 @@ ASide:
     Holes:
     - Side: Left
       Idx: 0
-      Kind: inout
+      Kind: out
     - Side: Left
       Idx: 1
       Kind: in
@@ -93,16 +93,16 @@ ASide:
     Holes:
     - Side: Right
       Idx: 0
-      Kind: inout
+      Kind: in
     - Side: Up
       Idx: 0
-      Kind: in
+      Kind: out
       ReqOut:
         Dashes: one
         Difficulty: hard
     - Side: Up
       Idx: 1
-      Kind: unknown
+      Kind: none
     - Side: Down
       Idx: 0
       Kind: none
@@ -129,9 +129,28 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
-      ReqOut:
-        Dashes: one
-        Difficulty: hard
+    InternalEdges: 
+      - Split: TopToBottom
+        ReqOut:
+          Dashes: one 
+          Difficulty: hard
+        ReqIn:
+          Or:
+          - Dashes: one
+            Difficulty: expert
+          - Dashes: two
+            Difficulty: hard
+    Tweaks:
+    - Name: "jumpThru"
+      ID: 1010
+      Update:
+        X: 48
+        Width: 24
+    - Name: "jumpThru"
+      ID: 1291
+      Update:
+        X: 264
+        Width: 16
   - Room: "D-06"
     Holes:
     - Side: Left
