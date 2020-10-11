@@ -1003,7 +1003,9 @@ ASide:
        Y: 48
        Width: 32
        Height: 56
-       Tiletype: Lostlevels
+       Values:
+         tiletype: "m"
+         blendin: true
    - Name: "fgTiles"
      X: 27
      Y: 8
