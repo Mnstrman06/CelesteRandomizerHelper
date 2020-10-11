@@ -23,9 +23,10 @@ ASide:
        ReqIn: 
          Dashes: two
  - Room: "C-02"
+ # enterable 0 dash without the InternalEdges tag setup, will have to test if it persists when brought back
    Holes:
    - Side: Left
-     Idx: 0 
+     Idx: 0
      Kind: inout
    - Side: Down
      Idx: 0
@@ -58,34 +59,25 @@ ASide:
      Idx: 0
      Kind: inout
      ReqBoth:
-          Or:
-          - Dashes: one
-            Difficulty: hard
-            Key: true
-            KeyholeID: 196
-          - Dashes: two
-            Key: true
-            KeyholeID: 196
+        Or:
+        - Dashes: one
+          Difficulty: hard
+          Key: true
+          KeyholeID: 196
+        - Dashes: two
+          Key: true
+          KeyholeID: 196
 #   InternalEdges:
-#     - Split: LeftToRight
- #      ReqOut:
- #        Or:
-  #       - Dashes: one
-   #        Difficulty: hard
-    #       Key: true
-     #      KeyholeID: 196
-      #   - Dashes: two
-       #    Key: true
-        #   KeyholeID: 196
-      # ReqIn:
-       #   Or:
-        #  - Dashes: one
-         #   Difficulty: hard
-          #  Key: true
-      #      KeyholeID: 196
-       #   - Dashes: two
-        #    Key: true
-         #   KeyholeID: 196     reverse taken out of randomizer until a proper solution to this bug is found
+#     - To: "left"
+#     ReqBoth:
+#        Or:
+#        - Dashes: one
+#          Difficulty: hard
+#          Key: true
+#          KeyholeID: 196
+#        - Dashes: two
+#          Key: true
+#          KeyholeID: 196
  - Room: "C-03"
    Holes:
    - Side: Up
@@ -97,11 +89,8 @@ ASide:
            Difficulty: hard
          - Dashes: two
    InternalEdges:
-     - To: "bottom"
      - Collectable: 0
-   Subrooms:
-   - Room: "bottom"
-     ReqOut:
+   ReqOut:
          Or:
          - Dashes: one
            Difficulty: hard
@@ -146,15 +135,6 @@ ASide:
  - Room: "C-05"
    Holes:
    - Side: Down
-     Idx: 0
-     Kind: none
-   - Side: Down
-     Idx: 1
-     Kind: none
-   - Side: Down
-     Idx: 2
-     Kind: none
-   - Side: Down
      Idx: 3
      Kind: none
    - Side: Down
@@ -163,12 +143,40 @@ ASide:
    - Side: Down
      Idx: 5
      Kind: none
+   - Side: Right
+     Idx: 0
+     Kind: inout
+     ReqBoth:
+       Or:
+       - Dashes: one
+       - Dashes: two
+   InternalEdges:
+     - To: "left"
+   ReqBoth:
+       Or:
+       - Dashes: one
+       - Dashes: two
+   Subrooms:
+   - Room: "left"
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: none
+   - Side: Down
+     Idx: 1
+     Kind: none
+   - Side: Down
+     Idx: 2
+     Kind: none
    - Side: Left
      Idx: 0
      Kind: unknown
-     ReqOut: 
-       Dashes: one
-       Difficulty: perfect
+     ReqOut:
+       Or:
+       - Dashes: one
+         Difficulty: expert
+       - Dashes: two
+         Difficulty: hard
    - Side: Left
      Idx: 1
      Kind: inout
@@ -177,23 +185,6 @@ ASide:
      Kind: unknown
      ReqOut:
        Dashes: two
-   - Side: Right
-     Idx: 0
-     Kind: inout
-     ReqBoth:
-       Or:
-       - Dashes: one
-       - Dashes: two
-#   InternalEdges:
-#     - Split: LeftToRight
-#       ReqOut:
-#         Or:
-#         - Dashes: one
-#         - Dashes: two
-#       ReqIn:
-#         Or:
-#         - Dashes: one
-#         - Dashes: two       also taken out because 3cc jank™️
  - Room: "C-06"
    Holes:
    - Side: Down 
@@ -240,8 +231,20 @@ ASide:
            Difficulty: hard
          - Dashes: two
        ReqIn:
-         Dashes: two
-         Difficulty: perfect
+         Or:
+         - Dashes: two
+           Difficulty: expert
+         - Dashes: one
+           Difficulty: perfect
+   Tweaks:
+   - Name: "spinner"
+     ID: 1074
+     Update: 
+       Remove: true
+   - Name: "spinner"
+     ID: 1033
+     Update: 
+       Remove: true
  - Room: "C-Cassette"
    End: true
    Holes:

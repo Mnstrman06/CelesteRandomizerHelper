@@ -76,7 +76,7 @@ ASide:
    Holes: 
    - Side: Down
      Idx: 0
-     Kind: in # Tweak to remove a part of the platform to allow the room to be exited reverse
+     Kind: inout
    - Side: Down
      Idx: 1 
      Kind: none
@@ -98,6 +98,11 @@ ASide:
            Difficulty: perfect
          - Dashes: two
            Difficulty: hard
+   Tweaks:
+   - Name: "jumpThru"
+     ID: 434
+     Update:
+       Width: 16
  - Room: "H-04"
    Holes: 
    - Side: Down
