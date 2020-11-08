@@ -199,7 +199,7 @@ ASide:
    - Side: Down
      Idx: 0 
      Kind: none
-     ReqBoth:
+     ReqEnd:
          Or:
          - Dashes: two
            Difficulty: hard

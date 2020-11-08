@@ -56,15 +56,15 @@ ASide:
    - Side: Right
      Idx: 0
      Kind: out
+     ReqOut:
+         Dashes: one
+         Difficulty: hard
    - Side: Left
      Idx: 0
      Kind: in
-     ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: hard
+     ReqIn:
+         Dashes: one
+         Difficulty: hard
  - Room: "I-02a" 
    Hub: true
    Holes:
@@ -95,9 +95,6 @@ ASide:
            Difficulty: hard
            Key: true
            KeyholeID: 1252 # 2nd keyhole id is 1253
-         - Dashes: one
-           Difficulty: expert
-           Key: false
    - Side: Right
      Idx: 0
      Kind: inout
@@ -109,9 +106,6 @@ ASide:
 #            Difficulty: hard
 #            Key: true
 #            KeyholeID: 1252 # 2nd keyhole id is 1253
-#          - Dashes: one
-#            Difficulty: expert
-#            Key: false
 #       ReqIn:
 #          Or:
 #          - Dashes: one 
@@ -978,17 +972,21 @@ ASide:
    - Side: Left
      Idx: 0
      Kind: inout
+     ReqOut: 
+       Dashes: one
    - Side: Up
      Idx: 0
-     Kind: out
-     ReqOut:
+     Kind: inout
+     ReqBoth: 
          Dashes: one
    - Side: Up
      Idx: 1
-     Kind: in
+     Kind: inout
+     ReqBoth: 
+         Dashes: one
    - Side: Right
      Idx: 0
-     Kind: out
+     Kind: inout
      ReqBoth:
          Dashes: one
    Tweaks:
@@ -1006,7 +1004,7 @@ ASide:
        Values:
          tiletype: "m"
          blendin: true
-   - Name: "fgTiles"
+   - Name: "fgTiles" # please ignore this entirely this is literal spaghetti code
      X: 27
      Y: 8
      Update:
@@ -1134,6 +1132,10 @@ ASide:
    - Side: Left
      Idx: 1
      Kind: inout
+     ReqOut:
+       Dashes: one
+     ReqOut: 
+       Dashes: one
    - Side: Left
      Idx: 2
      Kind: inout
@@ -1154,6 +1156,8 @@ ASide:
    - Side: Right
      Idx: 2
      Kind: inout
+     ReqOut:
+       Dashes: one
    - Side: Right
      Idx: 3
      Kind: inout

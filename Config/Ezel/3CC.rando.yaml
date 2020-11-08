@@ -23,11 +23,15 @@ ASide:
        ReqIn: 
          Dashes: two
  - Room: "C-02"
- # enterable 0 dash without the InternalEdges tag setup, will have to test if it persists when brought back
    Holes:
    - Side: Left
      Idx: 0
      Kind: inout
+     ReqIn:
+        Or:
+        - Dashes: two
+        - Dashes: one
+          Difficulty: hard
    - Side: Down
      Idx: 0
      Kind: none
@@ -233,7 +237,7 @@ ASide:
        ReqIn:
          Or:
          - Dashes: two
-           Difficulty: expert
+           Difficulty: master
          - Dashes: one
            Difficulty: perfect
    Tweaks:
