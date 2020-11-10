@@ -1,0 +1,121 @@
+Rulesets:
+- Name: Ezel_A
+  LongName: Expert Pathway 1Dash [Ezel's CC-Sides] (A) # name that shows up on the rulesets menu
+  RepeatRooms: true
+  EnterUnknown: false
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Pathway
+  Length: Medium
+  Dashes: One
+  Difficulty: Expert
+  EnabledMaps:
+  - SID: "Ezel/1CC"
+    Mode: 0 # a-side lol
+  - SID: "Ezel/2CC"
+    Mode: 0 
+  - SID: "Ezel/3CC"
+    Mode: 0 
+  - SID: "Ezel/4CC"
+    Mode: 0 
+  - SID: "Ezel/5CC"
+    Mode: 0 
+  - SID: "Ezel/6CC"
+    Mode: 0 
+  - SID: "Ezel/7CC"
+    Mode: 0 
+  - SID: "Ezel/8CC"
+    Mode: 0 
+  - SID: "Ezel/9CC"
+    Mode: 0 
+- Name: Ezel_B
+  LongName: Expert Pathway 2Dash [Ezel's CC-Sides] (B)
+  RepeatRooms: true
+  EnterUnknown: false
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Pathway
+  Length: Medium
+  Dashes: Two
+  Difficulty: Expert
+  EnabledMaps:
+  - SID: "Ezel/1CC"
+    Mode: 0
+  - SID: "Ezel/2CC"
+    Mode: 0 
+  - SID: "Ezel/3CC"
+    Mode: 0 
+  - SID: "Ezel/4CC"
+    Mode: 0 
+  - SID: "Ezel/5CC"
+    Mode: 0 
+  - SID: "Ezel/6CC"
+    Mode: 0 
+  - SID: "Ezel/7CC"
+    Mode: 0 
+  - SID: "Ezel/8CC"
+    Mode: 0 
+  - SID: "Ezel/9CC"
+    Mode: 0 
+- Name: Ezel_C
+  LongName: Expert Labyrinth 1Dash [Ezel's CC-Sides] (C)
+  RepeatRooms: true
+  EnterUnknown: false
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Labyrinth
+  Length: Medium
+  Dashes: One
+  Difficulty: Expert
+  EnabledMaps:
+  - SID: "Ezel/1CC"
+    Mode: 0
+  - SID: "Ezel/2CC"
+    Mode: 0 
+  - SID: "Ezel/3CC"
+    Mode: 0 
+  - SID: "Ezel/4CC"
+    Mode: 0 
+  - SID: "Ezel/5CC"
+    Mode: 0 
+  - SID: "Ezel/6CC"
+    Mode: 0 
+  - SID: "Ezel/7CC"
+    Mode: 0 
+  - SID: "Ezel/8CC"
+    Mode: 0 
+  - SID: "Ezel/9CC"
+    Mode: 0 
+- Name: Ezel_D
+  LongName: Expert Labyrinth 2Dash [Ezel's CC-Sides] (D)
+  RepeatRooms: true
+  EnterUnknown: false
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Labyrinth
+  Length: Medium
+  Dashes: Two
+  Difficulty: Expert
+  EnabledMaps:
+  - SID: "Ezel/1CC"
+    Mode: 0
+  - SID: "Ezel/2CC"
+    Mode: 0 
+  - SID: "Ezel/3CC"
+    Mode: 0 
+  - SID: "Ezel/4CC"
+    Mode: 0 
+  - SID: "Ezel/5CC"
+    Mode: 0 
+  - SID: "Ezel/6CC"
+    Mode: 0 
+  - SID: "Ezel/7CC"
+    Mode: 0 
+  - SID: "Ezel/8CC"
+    Mode: 0 
+  - SID: "Ezel/9CC"
+    Mode: 0 

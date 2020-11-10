@@ -37,6 +37,9 @@ ASide:
    - Side: Right
      Idx: 0
      Kind: inout
+   - Side: Right
+     Idx: 1
+     Kind: none
    - Side: Down
      Idx: 6
      Kind: none
