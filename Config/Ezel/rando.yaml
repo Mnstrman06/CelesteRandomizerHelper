@@ -1,5 +1,5 @@
 Rulesets:
-- Name: Ezel_A
+- Name: CCA
   LongName: Expert Pathway 1Dash [Ezel's CC-Sides] (A) # name that shows up on the rulesets menu
   RepeatRooms: true
   EnterUnknown: false
@@ -29,7 +29,7 @@ Rulesets:
     Mode: 0 
   - SID: "Ezel/9CC"
     Mode: 0 
-- Name: Ezel_B
+- Name: CCB
   LongName: Expert Pathway 2Dash [Ezel's CC-Sides] (B)
   RepeatRooms: true
   EnterUnknown: false
@@ -59,7 +59,7 @@ Rulesets:
     Mode: 0 
   - SID: "Ezel/9CC"
     Mode: 0 
-- Name: Ezel_C
+- Name: CCC
   LongName: Expert Labyrinth 1Dash [Ezel's CC-Sides] (C)
   RepeatRooms: true
   EnterUnknown: false
@@ -89,7 +89,7 @@ Rulesets:
     Mode: 0 
   - SID: "Ezel/9CC"
     Mode: 0 
-- Name: Ezel_D
+- Name: CCD
   LongName: Expert Labyrinth 2Dash [Ezel's CC-Sides] (D)
   RepeatRooms: true
   EnterUnknown: false
