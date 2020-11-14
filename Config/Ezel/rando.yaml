@@ -29,6 +29,8 @@ Rulesets:
     Mode: 0 
   - SID: "Ezel/9CC"
     Mode: 0 
+  - SID: "Ezel/Epilogue"
+    Mode: 0 
 - Name: CCB
   LongName: Expert Pathway 2Dash [Ezel's CC-Sides] (B)
   RepeatRooms: true
@@ -58,6 +60,8 @@ Rulesets:
   - SID: "Ezel/8CC"
     Mode: 0 
   - SID: "Ezel/9CC"
+    Mode: 0
+  - SID: "Ezel/Epilogue"
     Mode: 0 
 - Name: CCC
   LongName: Expert Labyrinth 1Dash [Ezel's CC-Sides] (C)
@@ -89,6 +93,8 @@ Rulesets:
     Mode: 0 
   - SID: "Ezel/9CC"
     Mode: 0 
+  - SID: "Ezel/Epilogue"
+    Mode: 0 
 - Name: CCD
   LongName: Expert Labyrinth 2Dash [Ezel's CC-Sides] (D)
   RepeatRooms: true
@@ -118,4 +124,6 @@ Rulesets:
   - SID: "Ezel/8CC"
     Mode: 0 
   - SID: "Ezel/9CC"
+    Mode: 0 
+  - SID: "Ezel/Epilogue"
     Mode: 0 

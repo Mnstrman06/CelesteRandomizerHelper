@@ -6,21 +6,12 @@ ASide:
       Kind: inout
     - Side: Down
       Idx: 0
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 1
-      Kind: none
-    - Side: Down
-      Idx: 2
-      Kind: none
-    - Side: Down
-      Idx: 3
-      Kind: none
-    - Side: Right
-      Idx: 0
-      Kind: inout
+      Kind: unknown
     InternalEdges:
-    - Split: LeftToRight
+    - To: "right"
       ReqOut:
         Or:
         - Dashes: one
@@ -30,6 +21,18 @@ ASide:
       ReqIn:
         Dashes: one
         Difficulty: expert
+    Subrooms:
+    - Room: "right"
+      Holes:
+      - Side: Down
+        Idx: 2
+        Kind: unknown
+      - Side: Down
+        Idx: 3
+        Kind: unknown
+      - Side: Right
+        Idx: 0
+        Kind: inout
     Tweaks:
     - Name: "spawn"
       Update:
@@ -43,15 +46,9 @@ ASide:
       Kind: inout
     - Side: Down
       Idx: 0
-      Kind: none
-    - Side: Down
-      Idx: 1
-      Kind: none
-    - Side: Right
-      Idx: 0
-      Kind: inout
+      Kind: unknown
     InternalEdges:
-    - Split: LeftToRight
+    - To: "right"
       ReqOut:
         Dashes: one
         Difficulty: hard
@@ -61,6 +58,15 @@ ASide:
           Difficulty: hard
         - Dashes: zero
           Difficulty: expert
+    Subrooms:
+    - Room: "right"
+      Holes:
+      - Side: Down
+        Idx: 1
+        Kind: unknown
+      - Side: Right
+        Idx: 0
+        Kind: inout
   - Room: "A-03"
     Holes:
     - Side: Left
@@ -68,7 +74,7 @@ ASide:
       Kind: in
     - Side: Down
       Idx: 0
-      Kind: none
+      Kind: unknown
     - Side: Right
       Idx: 0
       Kind: out
@@ -91,32 +97,32 @@ ASide:
           Difficulty: hard
         - Dashes: one
           Difficulty: hard
-  - Room: "A-05"
+  - Room: "A-05" # possible backwards 2 dash but MAN the camera is garbage - 2dr perfect
     Holes:
     - Side: Up
       Idx: 0
       Kind: inout
     - Side: Up
       Idx: 1
-      Kind: none
+      Kind: unknown
     - Side: Up
       Idx: 2
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 0
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 1
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 2
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 3
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 4
-      Kind: none
+      Kind: unknown
     - Side: Right
       Idx: 0
       Kind: out
@@ -133,19 +139,22 @@ ASide:
       Kind: inout
     - Side: Down
       Idx: 0
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 1
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 2
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 3
-      Kind: none
+      Kind: unknown
+      ReqIn: 
+        Dashes: two
+        Difficulty: expert
     - Side: Down
       Idx: 4
-      Kind: none
+      Kind: unknown
     - Side: Right
       Idx: 0
       Kind: out
@@ -166,25 +175,25 @@ ASide:
         Difficulty: hard
     - Side: Up
       Idx: 0
-      Kind: none
+      Kind: unknown
     - Side: Up
       Idx: 1
-      Kind: none
+      Kind: unknown
     - Side: Up
       Idx: 2
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 0
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 1
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 2
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 3
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 4
-      Kind: none
+      Kind: unknown
