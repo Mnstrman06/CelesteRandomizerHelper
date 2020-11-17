@@ -1,9 +1,9 @@
 - Name: CelesteRandomizerHelper
-  Version: 1.1
+  Version: 1.2
   Dependencies:
     - Name: Everest
-      Version: 1.1958.0
+      Version: 1.1992.0
     - Name: Ezel's CC-Sides
-      Version: 1.8.5
+      Version: 1.8.6
     - Name: Randomizer
       Version: 0.5.6
