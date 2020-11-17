@@ -45,11 +45,11 @@ ASide:
      ReqBoth:
            Dashes: two
            Difficulty: hard
- - Room: "H-02"
+ - Room: "H-02" 
    Holes: 
    - Side: Left
      Idx: 0
-     Kind: inout
+     Kind: in
    - Side: Down
      Idx: 0 
      Kind: none
@@ -61,7 +61,7 @@ ASide:
      Kind: none
    - Side: Up
      Idx: 1
-     Kind: inout
+     Kind: out
      ReqBoth:
          Or:
          - Dashes: two
