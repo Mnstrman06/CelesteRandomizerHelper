@@ -1,12 +1,12 @@
-ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus 
+ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus but idk how worth it is
  - Room: "G-01"
    Holes:
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Left
      Idx: 0
      Kind: none
@@ -35,37 +35,37 @@ ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus
      Kind: in
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 6
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 7
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 8
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 9
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 10
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
      Kind: none
@@ -79,7 +79,9 @@ ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus
    Holes:
    - Side: Left
      Idx: 0
-     Kind: none
+     Kind: unknown
+     ReqIn: 
+       Dashes: one
    - Side: Left
      Idx: 1
      Kind: none
@@ -88,7 +90,9 @@ ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus
      Kind: none
    - Side: Right
      Idx: 0
-     Kind: none
+     Kind: unknown
+     ReqIn:
+       Dashes: one
    - Side: Right
      Idx: 1
      Kind: none
@@ -101,9 +105,101 @@ ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus
    - Side: Up
      Idx: 0
      Kind: out
-     ReqBoth:
+     ReqOut:
          Dashes: two
          Difficulty: expert
+   Tweaks: # the single most annoying tweak to code of all time, hands down. definitely very creative though, and all it does is allow entering through 2 holes lol
+   - Name: "spikesLeft"
+     Update:
+       Add: true
+       X: 408
+       Y: 280
+       Height: 80
+       Type: outline
+   - Name: "spikesUp"
+     Update:
+       Add: true
+       X: 408 
+       Y: 280
+       Width: 24
+       Type: outline
+   - Name: "spikesRight"
+     Update:
+       Add: true
+       X: 432
+       Y: 280
+       Height: 80
+       Type: outline
+   - Name: "spikesDown"
+     Update:
+       Add: true
+       X: 376
+       Y: 224
+       Width: 24
+       Type: outline
+   - Name: "spikesLeft"
+     Update:
+       Add: true
+       X: 376
+       Y: 192
+       Height: 32
+       Type: outline
+   - Name: "spikesLeft"
+     Update:
+       Add: true
+       X: 376
+       Y: 120
+       Height: 32
+       Type: outline
+   - Name: "spikesRight"
+     Update:
+       Add: true
+       X: 400
+       Y: 152
+       Height: 40
+       Type: outline
+   - Name: "spikesUp"
+     Update:
+       Add: true
+       X: 376
+       Y: 120
+       Width: 24
+       Type: outline
+   - Name: "spikesDown"
+     Update:
+       Add: true
+       X: 432
+       Y: 104
+       Width: 24
+       Type: outline
+   - Name: "spikesUp"
+     Update:
+       Add: true
+       X: 432
+       Y: 80
+       Width: 24
+       Type: outline
+   - Name: "dreamBlock"
+     Update:
+       Add: true
+       X: 408
+       Y: 280
+       Width: 24
+       Height: 80
+   - Name: "dreamBlock"
+     Update:
+       Add: true
+       X: 376
+       Y: 120
+       Width: 24
+       Height: 104
+   - Name: "dreamBlock"
+     Update:
+       Add: true
+       X: 432
+       Y: 80
+       Width: 24
+       Height: 24
  - Room: "G-04"
    Holes:
    - Side: Down
@@ -111,49 +207,49 @@ ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus
      Kind: in
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 6
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 7
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 8
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 9
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 10
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 5
      Kind: out
@@ -167,37 +263,37 @@ ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus
      Kind: in
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 6
      Kind: none
    - Side: Down
      Idx: 7
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 8
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 9
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 10
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 11
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
      Kind: out
@@ -208,10 +304,10 @@ ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus
    Holes:
    - Side: Left
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 0
      Kind: in
@@ -236,25 +332,25 @@ ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus
    Holes:
    - Side: Left
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 0
      Kind: in
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
      Kind: out
@@ -265,25 +361,25 @@ ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus
    Holes:
    - Side: Left
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 0
      Kind: in
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
      Kind: out
@@ -294,34 +390,34 @@ ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus
    Holes:
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 6
      Kind: out
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
      Kind: in
@@ -335,10 +431,10 @@ ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus
      Kind: in
    - Side: Left
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
      Kind: out
@@ -352,13 +448,13 @@ ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus
      Kind: in
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Left
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
-     Kind: none
+     Kind: unknown
      ReqBoth:
            Dashes: two
            Difficulty: hard

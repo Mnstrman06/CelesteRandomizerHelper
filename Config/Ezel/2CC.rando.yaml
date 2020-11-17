@@ -47,6 +47,9 @@ ASide:
    - Side: Down
      Idx: 1
      Kind: unknown
+     ReqIn: 
+       Dashes: one
+       Difficulty: hard
    - Side: Down
      Idx: 2
      Kind: unknown
@@ -57,11 +60,8 @@ ASide:
      Idx: 0
      Kind: out
      ReqOut:
-       Or:
-       - Dashes: one
-         Difficulty: hard
-       - Dashes: two
-         Difficulty: hard
+       Dashes: one
+       Difficulty: hard
  - Room: "B-04"
    Holes: 
    - Side: Left
@@ -70,6 +70,8 @@ ASide:
    - Side: Down
      Idx: 0
      Kind: unknown
+     ReqIn:
+       Dashes: two
    - Side: Down
      Idx: 1
      Kind: unknown
@@ -102,6 +104,12 @@ ASide:
          Difficulty: hard
        - Dashes: two
          Difficulty: hard
+   Tweaks:
+   - Name: "jumpThru"
+     ID: 281
+     Update: 
+       X: 64
+       Width: 208
  - Room: "B-06"
    Holes: 
    - Side: Left

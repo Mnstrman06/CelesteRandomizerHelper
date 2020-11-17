@@ -3,10 +3,10 @@ ASide:
    Holes: 
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
      Kind: inout
@@ -23,13 +23,13 @@ ASide:
      Kind: in
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
      Kind: out
@@ -80,16 +80,16 @@ ASide:
            Difficulty: hard
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
      Kind: out
@@ -101,10 +101,10 @@ ASide:
            Difficulty: hard
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
      ReqBoth:
          Or:
          - Dashes: two
@@ -194,13 +194,13 @@ ASide:
      Kind: inout
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
-     Kind: none
+     Kind: unknown
      ReqBoth:
          Or:
          - Dashes: two

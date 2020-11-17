@@ -10,6 +10,8 @@ ASide:
     - Side: Down
       Idx: 1
       Kind: unknown
+      ReqIn:
+        Dashes: one
     InternalEdges:
     - To: "right"
       ReqOut:
@@ -20,7 +22,7 @@ ASide:
           Difficulty: perfect
       ReqIn:
         Dashes: one
-        Difficulty: expert
+        Difficulty: master
     Subrooms:
     - Room: "right"
       Holes:

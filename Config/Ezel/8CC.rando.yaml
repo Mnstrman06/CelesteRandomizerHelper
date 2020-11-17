@@ -20,25 +20,25 @@ ASide:
      Kind: in
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
      Kind: inout
@@ -52,13 +52,13 @@ ASide:
      Kind: in
    - Side: Down
      Idx: 0 
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0 
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
      Kind: out
@@ -79,19 +79,19 @@ ASide:
      Kind: inout
    - Side: Down
      Idx: 1 
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0 
      Kind: inout
    - Side: Up
      Idx: 1 
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2 
-     Kind: none
+     Kind: unknown
      ReqBoth:
          Or:
          - Dashes: one
@@ -121,10 +121,10 @@ ASide:
      Kind: in
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0 
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
      Kind: inout
@@ -138,49 +138,52 @@ ASide:
      Kind: in
    - Side: Down
      Idx: 0 
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1 
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
+     ReqIn:
+       Dashes: two
+       Difficulty: perfect
    - Side: Down
      Idx: 4 
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 5 
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 6 
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 7 
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0 
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2 
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3 
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 4 
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 5 
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 6
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0 
      Kind: inout
@@ -195,10 +198,10 @@ ASide:
      Kind: in
    - Side: Up
      Idx: 0 
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 0 
-     Kind: none
+     Kind: unknown
      ReqEnd:
          Or:
          - Dashes: two

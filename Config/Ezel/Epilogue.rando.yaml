@@ -40,6 +40,9 @@ ASide:
    - Side: Down
      Idx: 6
      Kind: none
+   - Side: Down
+     Idx: 7
+     Kind: none
    Tweaks:
    - Name: "booster"
      Update:

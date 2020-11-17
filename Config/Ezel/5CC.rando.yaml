@@ -3,25 +3,25 @@ ASide:
     Holes:
     - Side: Left
       Idx: 0
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 0
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 1
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 2
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 3
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 3
-      Kind: none
+      Kind: unknown
     - Side: Up
       Idx: 0
-      Kind: none
+      Kind: unknown
     - Side: Up
       Idx: 1
       Kind: inout
@@ -78,19 +78,19 @@ ASide:
         Difficulty: hard
     - Side: Down
       Idx: 0
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 1
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 2
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 3
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 4
-      Kind: none
+      Kind: unknown
   - Room: "E-06"
     Holes:
     - Side: Left
@@ -107,52 +107,55 @@ ASide:
           Difficulty: hard
     - Side: Down
       Idx: 0
-      Kind: none
+      Kind: unknown
+      ReqIn: 
+        Dashes: two
+        Difficulty: hard
     - Side: Down
       Idx: 1
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 2
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 3
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 4
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 5
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 6
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 7
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 8
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 9
-      Kind: none
+      Kind: unknown
     - Side: Down
       Idx: 10
-      Kind: none
+      Kind: unknown
     - Side: Up
       Idx: 0
-      Kind: none
+      Kind: unknown
     - Side: Up
       Idx: 1
-      Kind: none
+      Kind: unknown
     - Side: Up
       Idx: 2
-      Kind: none
+      Kind: unknown
     - Side: Up
       Idx: 3
-      Kind: none
+      Kind: unknown
     - Side: Up
       Idx: 4
-      Kind: none
+      Kind: unknown
   - Room: "E-Cassette"
     End: true
     Holes:
@@ -164,7 +167,7 @@ ASide:
         Difficulty: hard
     - Side: Down
       Idx: 0
-      Kind: none
+      Kind: unknown
     - Side: Up
       Idx: 0
-      Kind: none
+      Kind: unknown

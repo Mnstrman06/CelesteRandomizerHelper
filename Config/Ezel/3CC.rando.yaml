@@ -10,6 +10,8 @@ ASide:
    - Side: Down
      Idx: 0
      Kind: unknown
+     ReqIn: 
+       Dashes: one
    InternalEdges:
      - To: "right"
        ReqOut:
@@ -25,7 +27,7 @@ ASide:
      - Side: Right
        Idx: 0
        Kind: inout
- - Room: "C-02"
+ - Room: "C-02" # use empty space tag for the falling blocks in the room
    Holes:
    - Side: Left
      Idx: 0
@@ -110,6 +112,12 @@ ASide:
    - Side: Left
      Idx: 0
      Kind: inout
+     ReqOut:
+         Or:
+         - Dashes: one
+           Difficulty: master
+         - Dashes: two
+           Difficulty: expert
    - Side: Right
      Idx: 0
      Kind: out
