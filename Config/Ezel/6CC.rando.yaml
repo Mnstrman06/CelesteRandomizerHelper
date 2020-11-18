@@ -176,6 +176,15 @@ ASide:
    - Side: Up
      Idx: 5
      Kind: none
+   - Side: Up
+     Idx: 6
+     Kind: none
+   - Side: Up
+     Idx: 7
+     Kind: none
+   - Side: Up
+     Idx: 8
+     Kind: none
    - Side: Right
      Idx: 0
      Kind: out

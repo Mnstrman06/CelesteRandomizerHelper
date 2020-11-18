@@ -134,11 +134,11 @@ ASide:
           Difficulty: hard
         - Dashes: one
           Difficulty: expert
-  - Room: "A-06"
+  - Room: "A-06" # do extraspace stuff
     Holes:
     - Side: Left
       Idx: 0
-      Kind: inout
+      Kind: in # possible to go out this hole from down3 - 2d perfect 
     - Side: Down
       Idx: 0
       Kind: unknown
