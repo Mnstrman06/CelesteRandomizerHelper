@@ -112,15 +112,15 @@ ASide:
    - Side: Left
      Idx: 0
      Kind: inout
-     ReqOut:
-         Or:
-         - Dashes: one
-           Difficulty: master
-         - Dashes: two
-           Difficulty: expert
    - Side: Right
      Idx: 0
      Kind: out
+     ReqOut:
+       Or:
+       - Dashes: one
+         Difficulty: master
+       - Dashes: two
+         Difficulty: expert
    - Side: Down
      Idx: 0
      Kind: unknown
@@ -145,11 +145,6 @@ ASide:
    - Side: Down
      Idx: 7
      Kind: unknown
-     ReqBoth:
-         Or:
-         - Dashes: one
-           Difficulty: hard
-         - Dashes: two
  - Room: "C-05"
    Holes:
    - Side: Down
@@ -184,6 +179,8 @@ ASide:
      - Side: Down
        Idx: 2
        Kind: unknown
+       ReqIn:
+         Dashes: two
      - Side: Left
        Idx: 0
        Kind: unknown

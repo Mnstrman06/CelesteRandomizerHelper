@@ -172,9 +172,6 @@ ASide:
     - Side: Left
       Idx: 0
       Kind: in
-      ReqIn:
-        Dashes: one
-        Difficulty: hard
     - Side: Up
       Idx: 0
       Kind: unknown
@@ -199,3 +196,6 @@ ASide:
     - Side: Down
       Idx: 4
       Kind: unknown
+      ReqEnd:
+        Dashes: one
+        Difficulty: hard

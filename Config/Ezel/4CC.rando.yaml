@@ -56,9 +56,14 @@ ASide:
     - Side: Left
       Idx: 0
       Kind: unknown
+      ReqIn:
+        Or:
+        - Dashes: zero
+          Difficulty: hard
+        - Dashes: one
     - Side: Left
       Idx: 1
-      Kind: unknown
+      Kind: none
     - Side: Left
       Idx: 2
       Kind: inout
@@ -233,8 +238,17 @@ ASide:
     - Side: Down
       Idx: 14
       Kind: unknown
+      ReqIn:
+        Or:
+        - Dashes: one
+          Difficulty: hard
+        - Dashes: two
+          Difficulty: normal
     - Side: Down
       Idx: 15
+      Kind: unknown
+    - Side: Down
+      Idx: 16
       Kind: unknown
     - Side: Up
       Idx: 0

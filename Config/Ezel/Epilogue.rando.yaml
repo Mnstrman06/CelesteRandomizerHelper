@@ -55,6 +55,12 @@ ASide:
    - Side: Left
      Idx: 0
      Kind: inout
+   - Side: Left
+     Idx: 1
+     Kind: none
    - Side: Right
      Idx: 0
      Kind: inout
+   - Side: Down
+     Idx: 0
+     Kind: none

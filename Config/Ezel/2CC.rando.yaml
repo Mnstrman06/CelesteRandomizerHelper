@@ -162,12 +162,12 @@ ASide:
    - Side: Left
      Idx: 1
      Kind: in
-     ReqIn:
-       Dashes: one
-       Difficulty: hard
    - Side: Right
      Idx: 0
      Kind: unknown
    - Side: Up
      Idx: 0
      Kind: unknown
+     ReqEnd:
+       Dashes: one
+       Difficulty: hard

@@ -165,7 +165,7 @@ ASide:
      Kind: unknown
    - Side: Up
      Idx: 0 
-     Kind: unknown
+     Kind: none
    - Side: Up
      Idx: 1
      Kind: unknown
@@ -186,10 +186,10 @@ ASide:
      Kind: unknown
    - Side: Right
      Idx: 0 
-     Kind: inout
+     Kind: out
      ReqBoth:
-           Dashes: two
-           Difficulty: expert
+       Dashes: two
+       Difficulty: expert
  - Room: "H-Cassette"
    End: true
    Holes: 
