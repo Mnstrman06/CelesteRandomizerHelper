@@ -445,9 +445,6 @@ ASide:
     - Side: Up
       Idx: 0
       Kind: none
-    - Side: Up
-      Idx: 1
-      Kind: none
     - Side: Left
       Idx: 0
       Kind: none
