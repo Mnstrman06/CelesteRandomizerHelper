@@ -1,0 +1,216 @@
+Music:
+  - Name: "event:/torre/seasonsides/fall"
+    Weight: 5
+  - Name: "event:/torre/seasonsides/peace"
+    Weight: 5
+  - Name: "event:/torre/seasonsides/summer"
+    Weight: 5
+  - Name: "event:/torre/seasonsides/void"
+    Weight: 5
+  - Name: "event:/torre/seasonsides/winter1"
+    Weight: 5
+  - Name: "event:/torre/seasonsides/winter2"
+    Weight: 5
+  - Name: "event:/torre/sfx/collect_token"
+    Weight: 0.01
+  - Name: "event:/torre/sfx/portal_pulse"
+    Weight: 0.01
+  - Name: "event:/torre/sfx/unlock_heart"
+    Weight: 0.01 # i am genuinely curious as to what it will do if it plays a sound effect as the song so i will leave these in depending on result
+  - Name: "event:/torre/coldcliffs"
+    Weight: 5
+  - Name: "event:/torre/coldclimb"
+    Weight: 5
+  - Name: "event:/torre/crane"
+    Weight: 5
+  - Name: "event:/torre/endofseasons"
+    Weight: 5
+  - Name: "event:/torre/goldenhills"
+    Weight: 5
+  - Name: "event:/torre/heat"
+    Weight: 5
+  - Name: "event:/torre/peace"
+    Weight: 5
+Rulesets:
+- Name: G_A
+  LongName: Glyph A # name that shows up on the rulesets menu
+  RepeatRooms: true
+  EnterUnknown: true
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Pathway
+  Length: Short
+  Dashes: One
+  Difficulty: Hard
+  DifficultyEagerness: None
+  EnabledMaps:
+  - SID: "BeefyUncleTorre/map/1"
+    Mode: 0 # A-Side
+  - SID: "BeefyUncleTorre/map/2"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/3"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/4"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/5"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 0
+Rulesets:
+- Name: G_B
+  LongName: Glyph B
+  RepeatRooms: true
+  EnterUnknown: true
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Pathway
+  Length: Short
+  Dashes: One
+  Difficulty: Expert
+  DifficultyEagerness: None
+  EnabledMaps:
+  - SID: "BeefyUncleTorre/map/1"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/2"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/3"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/4"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/5"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 0
+Rulesets:
+- Name: G_C
+  LongName: Glyph C
+  RepeatRooms: true
+  EnterUnknown: true
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Pathway
+  Length: Short
+  Dashes: Two
+  Difficulty: Hard
+  DifficultyEagerness: None
+  EnabledMaps:
+  - SID: "BeefyUncleTorre/map/1"
+    Mode: 0=
+  - SID: "BeefyUncleTorre/map/2"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/3"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/4"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/5"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 0
+Rulesets:
+- Name: G_D
+  LongName: Glyph D
+  RepeatRooms: true
+  EnterUnknown: true
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Pathway
+  Length: Short
+  Dashes: Two
+  Difficulty: Expert
+  DifficultyEagerness: None
+  EnabledMaps:
+  - SID: "BeefyUncleTorre/map/1"
+    Mode: 0 
+  - SID: "BeefyUncleTorre/map/2"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/3"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/4"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/5"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 0
+ParallaxBackgrounds:
+- Texture: "bgs/beefyuncletorre/clouds/0"
+  Cover: 39
+- Texture: "bgs/beefyuncletorre/clouds/1"
+  Cover: 27
+- Texture: "bgs/beefyuncletorre/clouds/2"
+  Cover: 32
+- Texture: "bgs/beefyuncletorre/clouds/3"
+  Cover: 32
+- Texture: "bgs/beefyuncletorre/clouds/4"
+  Cover: 39
+- Texture: "bgs/beefyuncletorre/cold/bg2b"
+  Cover: 67
+- Texture: "bgs/beefyuncletorre/cold/bg3b"
+  Cover: 61
+- Texture: "bgs/beefyuncletorre/cold/bg4b"
+  Cover: 67
+- Texture: "bgs/beefyuncletorre/fall/clouds/0"
+  Cover: 39
+- Texture: "bgs/beefyuncletorre/fall/clouds/1"
+  Cover: 27
+- Texture: "bgs/beefyuncletorre/fall/clouds/2"
+  Cover: 32
+- Texture: "bgs/beefyuncletorre/fall/clouds/3"
+  Cover: 32
+- Texture: "bgs/beefyuncletorre/fall/clouds/4"
+  Cover: 39
+- Texture: "bgs/beefyuncletorre/fall/backdrop"
+  Cover: 180
+- Texture: "bgs/beefyuncletorre/fall/bg3"
+  Cover: 147
+- Texture: "bgs/beefyuncletorre/fall/bg4"
+  Cover: 64
+- Texture: "bgs/beefyuncletorre/fall/bg5"
+  Cover: 92
+- Texture: "bgs/beefyuncletorre/fall/golden"
+  Cover: 200
+- Texture: "bgs/beefyuncletorre/garden/black_cover"
+  Cover: 180
+- Texture: "bgs/beefyuncletorre/garden/cherry_clouds"
+  Cover: 200
+- Texture: "bgs/beefyuncletorre/garden/cold_clouds"
+  Cover: 200
+- Texture: "bgs/beefyuncletorre/garden/forest_a_pink"
+  Cover: 151
+- Texture: "bgs/beefyuncletorre/garden/forest_a_red"
+  Cover: 151
+- Texture: "bgs/beefyuncletorre/garden/forest_a_white"
+  Cover: 151
+- Texture: "bgs/beefyuncletorre/garden/forest_b_pink"
+  Cover: 135
+- Texture: "bgs/beefyuncletorre/garden/forest_b_red"
+  Cover: 135
+- Texture: "bgs/beefyuncletorre/garden/forest_b_white"
+  Cover: 135
+- Texture: "bgs/beefyuncletorre/garden/golden_clouds"
+  Cover: 200
+- Texture: "bgs/beefyuncletorre/garden/red_clouds"
+  Cover: 200
+- Texture: "bgs/beefyuncletorre/garden/white_clouds"
+  Cover: 200
+- Texture: "bgs/beefyuncletorre/heat/backdrop"
+  Cover: 180
+- Texture: "bgs/beefyuncletorre/heat/bg00"
+  Cover: 49
+- Texture: "bgs/beefyuncletorre/heat/bg01"
+  Cover: 109
+- Texture: "bgs/beefyuncletorre/heat/bg02"
+  Cover: 109
+- Texture: "bgs/beefyuncletorre/heat/heatwave"
+  Cover: 200
+- Texture: "bgs/beefyuncletorre/heat/sun"
+  Cover: 62
+- Texture: "bgs/beefyuncletorre/memory/bg"
+  Cover: 180
+- Texture: "bgs/beefyuncletorre/memory/bg1"
+  Cover: 217
+- Texture: "bgs/beefyuncletorre/memory/bg2"
+  Cover: 220
