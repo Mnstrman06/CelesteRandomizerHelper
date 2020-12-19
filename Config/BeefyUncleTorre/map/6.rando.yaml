@@ -590,10 +590,10 @@ ASide:
     Holes:
     - Side: Down
       Idx: 0
-      Kind: inout
+      Kind: in
     - Side: Down
       Idx: 1
-      Kind: inout
+      Kind: in
     - Side: Left
       Idx: 0
       Kind: unknown

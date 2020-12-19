@@ -117,13 +117,13 @@ ASide:
     Holes:
     - Side: Right
       Idx: 0
-      Kind: inout
+      Kind: out
       ReqOut:
         Dashes: one
         Difficulty: hard
     - Side: Left
       Idx: 0
-      Kind: inout
+      Kind: in
     - Side: Down
       Idx: 0
       Kind: none
@@ -214,13 +214,13 @@ ASide:
     Holes:
     - Side: Left
       Idx: 0
-      Kind: inout
+      Kind: out
       ReqOut:
          Dashes: one
          Difficulty: hard
     - Side: Right
       Idx: 0
-      Kind: inout
+      Kind: in
     - Side: Up
       Idx: 0
       Kind: none
