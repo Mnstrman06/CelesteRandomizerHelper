@@ -21,8 +21,11 @@ ASide:
         - Dashes: zero
           Difficulty: perfect
       ReqIn:
-        Dashes: one
-        Difficulty: master
+        Or:
+        - Dashes: one
+          Difficulty: master
+        - Dashes: two
+          Difficulty: expert
     Subrooms:
     - Room: "right"
       Holes:

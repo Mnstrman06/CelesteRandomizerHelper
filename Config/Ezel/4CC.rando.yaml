@@ -18,7 +18,7 @@ ASide:
       Kind: unknown
     - Side: Up
       Idx: 2
-      Kind: unknown
+      Kind: none
     InternalEdges:
     - To: "right"
       ReqBoth:
@@ -183,7 +183,7 @@ ASide:
     Holes:
     - Side: Left
       Idx: 0
-      Kind: inout
+      Kind: in
     - Side: Right
       Idx: 0
       Kind: out
@@ -261,7 +261,7 @@ ASide:
       Kind: unknown
     - Side: Up
       Idx: 3
-      Kind: unknown
+      Kind: none
     - Side: Up
       Idx: 4
       Kind: unknown
