@@ -169,7 +169,7 @@ Backgrounds:
   CoverBottom: 92
 - Texture: "bgs/beefyuncletorre/fall/golden_2"
   CoverBottom: 200
-- Texture: "bgs/beefyuncletorre/garden/black_CoverBottom"
+- Texture: "bgs/beefyuncletorre/garden/black_cover"
   CoverBottom: 180
 - Texture: "bgs/beefyuncletorre/garden/cherry_clouds"
   CoverBottom: 200

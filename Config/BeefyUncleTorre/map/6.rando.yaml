@@ -22,11 +22,11 @@ ASide:
       ReqOut:
         Dashes: zero
     Tweaks:
-    - Name: "moveBlock"
+    - Name: "moveBlock" 
       Update:
         Add: true
         X: 208
-        Y: 96
+        Y: 108
         Width: 16
         Height: 16
         Direction: Up
@@ -603,6 +603,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: unknown
+      ReqEnd:
+        Dashes: zero
     Tweaks:
     - Name: "spring"
       Update: 

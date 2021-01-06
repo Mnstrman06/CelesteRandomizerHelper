@@ -159,10 +159,10 @@ ASide:
     Holes:
     - Side: Left
       Idx: 0
-      Kind: inout
+      Kind: in
     - Side: Left
       Idx: 1
-      Kind: inout
+      Kind: out
       ReqOut:
          Dashes: one
          Difficulty: hard
@@ -486,7 +486,7 @@ ASide:
         Difficulty: hard
     - Side: Left
       Idx: 0
-      Kind: inout
+      Kind: in
     - Side: Up
       Idx: 0
       Kind: none
@@ -662,3 +662,5 @@ ASide:
     - Side: Up
       Idx: 0
       Kind: none
+      ReqEnd:
+        Dashes: zero
