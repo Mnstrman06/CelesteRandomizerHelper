@@ -244,6 +244,9 @@ ASide:
     - Side: Down
       Idx: 0
       Kind: none
+    - Side: Up
+      Idx: 0
+      Kind: none
   - Room: "ch2-peace-075"
     Holes:
     - Side: Left
@@ -544,13 +547,16 @@ ASide:
       Idx: 0
       Kind: none
     InternalEdges:
-    - Split: LeftToRight
-      ReqOut:
+    - Split: LeftToRight # normal room route goes left, potentially causing a bug shown by testing
+      ReqOut: # reverse route for this room
+        Or:
+        - Dashes: two
+          Difficulty: master
+        - Dashes: one
+          Difficulty: perfect
+      ReqIn: # normal route for this room
         Dashes: one
         Difficulty: hard
-      ReqIn:
-        Dashes: two
-        Difficulty: perfect
   - Room: "crane-pink-02"
     Holes:
     - Side: Up

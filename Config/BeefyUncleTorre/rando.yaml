@@ -31,6 +31,8 @@ Music:
     Weight: 5
   - Name: "event:/torre/peace"
     Weight: 5
+  - Name: "event:/torre/seasonsides/void-b"
+    Weight: 5
 Rulesets:
 - Name: G_A
   LongName: Glyph A # name that shows up on the rulesets menu

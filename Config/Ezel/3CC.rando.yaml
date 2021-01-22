@@ -55,14 +55,14 @@ ASide:
    InternalEdges:
      - To: "right"
    ReqBoth:
-        Or:
-        - Dashes: one
-          Difficulty: hard
-          Key: true
-          KeyholeID: 196
-        - Dashes: two
-          Key: true
-          KeyholeID: 196
+     Or:
+     - Dashes: one
+       Difficulty: hard
+       Key: true
+       KeyholeID: 196
+     - Dashes: two
+       Key: true
+       KeyholeID: 196
    Subrooms:
    - Room: "right"
      Holes: 
@@ -112,6 +112,12 @@ ASide:
    - Side: Left
      Idx: 0
      Kind: inout
+     ReqIn:
+       Or:
+       - Dashes: one
+         Difficulty: master
+       - Dashes: two
+         Difficulty: expert
    - Side: Right
      Idx: 0
      Kind: out
