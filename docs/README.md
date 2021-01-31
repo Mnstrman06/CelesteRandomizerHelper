@@ -22,7 +22,7 @@ If you find any maps that are impossible to complete or an area where you die in
 Known Issues
 -
 
-None currently :)
+Glyph Stylegrounds are not set up properly, they appear but are not aligned correctly.
 
 Credits
 -
