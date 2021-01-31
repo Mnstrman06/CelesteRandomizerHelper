@@ -11,7 +11,13 @@ How to install?
 2. Install the mod [Here](https://gamebanana.com/gamefiles/13046).
 3. Upon reloading the game, you should find new maps in "Select Maps To Randomize", as well as rulesets.
 
-![folder_structure](docs/img/maps.png)
+![folder_structure](docs/img/ezelrules.png)
+
+![folder_structure](docs/img/ezelmaps.png)
+
+![folder_structure](docs/img/glyphrules.png)
+
+![folder_structure](docs/img/glyphmaps.png)
 
 Bug Reports
 -
