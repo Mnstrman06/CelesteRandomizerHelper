@@ -145,14 +145,14 @@ ASide:
     InternalEdges: 
     - To: "top"
       ReqOut:
-          Dashes: one 
-          Difficulty: hard
+        Dashes: one 
+        Difficulty: hard
       ReqIn:
-          Or:
-          - Dashes: one
-            Difficulty: expert
-          - Dashes: two
-            Difficulty: hard
+        Or:
+        - Dashes: one
+          Difficulty: expert
+        - Dashes: two
+          Difficulty: hard
     Subrooms:
     - Room: "top"
       Holes:

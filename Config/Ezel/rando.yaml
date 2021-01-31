@@ -127,3 +127,347 @@ Rulesets:
     Mode: 0 
   - SID: "Ezel/Epilogue"
     Mode: 0 
+- Name: CCE
+  LongName: Expert Pathway 1Dash [Ezel's CC-Sides] (E)
+  RepeatRooms: true
+  EnterUnknown: false
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Pathway
+  Length: Medium
+  Dashes: One
+  Difficulty: Expert
+  EnabledMaps:
+  - SID: "Ezel/1CC"
+    Mode: 0
+  - SID: "Ezel/2CC"
+    Mode: 0 
+  - SID: "Ezel/3CC"
+    Mode: 0 
+  - SID: "Ezel/4CC"
+    Mode: 0 
+  - SID: "Ezel/5CC"
+    Mode: 0 
+  - SID: "Ezel/6CC"
+    Mode: 0 
+  - SID: "Ezel/7CC"
+    Mode: 0 
+  - SID: "Ezel/8CC"
+    Mode: 0 
+  - SID: "Ezel/9CC"
+    Mode: 0 
+  - SID: "Ezel/Epilogue"
+    Mode: 0 
+  - SID: Celeste/1
+    Mode: 0 # A-Side
+  - SID: Celeste/1
+    Mode: 1 # B-Side
+  - SID: Celeste/1
+    Mode: 2 # C-Side
+  - SID: Celeste/2
+    Mode: 0
+  - SID: Celeste/2
+    Mode: 1
+  - SID: Celeste/2
+    Mode: 2
+  - SID: Celeste/3
+    Mode: 0
+  - SID: Celeste/3
+    Mode: 1
+  - SID: Celeste/3
+    Mode: 2
+  - SID: Celeste/4
+    Mode: 0
+  - SID: Celeste/4
+    Mode: 1
+  - SID: Celeste/4
+    Mode: 2
+  - SID: Celeste/5
+    Mode: 0
+  - SID: Celeste/5
+    Mode: 1
+  - SID: Celeste/5
+    Mode: 2
+  - SID: Celeste/6
+    Mode: 0
+  - SID: Celeste/6
+    Mode: 1
+  - SID: Celeste/6
+    Mode: 2
+  - SID: Celeste/7
+    Mode: 0
+  - SID: Celeste/7
+    Mode: 1
+  - SID: Celeste/7
+    Mode: 2
+  - SID: Celeste/9
+    Mode: 0
+  - SID: Celeste/9
+    Mode: 1
+  - SID: Celeste/9
+    Mode: 2
+  - SID: Celeste/0
+    Mode: 0
+  - SID: Celeste/8
+    Mode: 0
+  - SID: Celeste/10
+    Mode: 0
+- Name: CCF
+  LongName: Expert Pathway 2Dash [Ezel's CC-Sides] (F)
+  RepeatRooms: true
+  EnterUnknown: false
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Pathway
+  Length: Medium
+  Dashes: Two
+  Difficulty: Expert
+  EnabledMaps:
+  - SID: "Ezel/1CC"
+    Mode: 0
+  - SID: "Ezel/2CC"
+    Mode: 0 
+  - SID: "Ezel/3CC"
+    Mode: 0 
+  - SID: "Ezel/4CC"
+    Mode: 0 
+  - SID: "Ezel/5CC"
+    Mode: 0 
+  - SID: "Ezel/6CC"
+    Mode: 0 
+  - SID: "Ezel/7CC"
+    Mode: 0 
+  - SID: "Ezel/8CC"
+    Mode: 0 
+  - SID: "Ezel/9CC"
+    Mode: 0
+  - SID: "Ezel/Epilogue"
+    Mode: 0 
+  - SID: Celeste/1
+    Mode: 0 # A-Side
+  - SID: Celeste/1
+    Mode: 1 # B-Side
+  - SID: Celeste/1
+    Mode: 2 # C-Side
+  - SID: Celeste/2
+    Mode: 0
+  - SID: Celeste/2
+    Mode: 1
+  - SID: Celeste/2
+    Mode: 2
+  - SID: Celeste/3
+    Mode: 0
+  - SID: Celeste/3
+    Mode: 1
+  - SID: Celeste/3
+    Mode: 2
+  - SID: Celeste/4
+    Mode: 0
+  - SID: Celeste/4
+    Mode: 1
+  - SID: Celeste/4
+    Mode: 2
+  - SID: Celeste/5
+    Mode: 0
+  - SID: Celeste/5
+    Mode: 1
+  - SID: Celeste/5
+    Mode: 2
+  - SID: Celeste/6
+    Mode: 0
+  - SID: Celeste/6
+    Mode: 1
+  - SID: Celeste/6
+    Mode: 2
+  - SID: Celeste/7
+    Mode: 0
+  - SID: Celeste/7
+    Mode: 1
+  - SID: Celeste/7
+    Mode: 2
+  - SID: Celeste/9
+    Mode: 0
+  - SID: Celeste/9
+    Mode: 1
+  - SID: Celeste/9
+    Mode: 2
+  - SID: Celeste/0
+    Mode: 0
+  - SID: Celeste/8
+    Mode: 0
+  - SID: Celeste/10
+    Mode: 0
+- Name: CCG
+  LongName: Expert Labyrinth 1Dash [Ezel's CC-Sides] (G)
+  RepeatRooms: true
+  EnterUnknown: false
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Labyrinth
+  Length: Medium
+  Dashes: One
+  Difficulty: Expert
+  EnabledMaps:
+  - SID: "Ezel/1CC"
+    Mode: 0
+  - SID: "Ezel/2CC"
+    Mode: 0 
+  - SID: "Ezel/3CC"
+    Mode: 0 
+  - SID: "Ezel/4CC"
+    Mode: 0 
+  - SID: "Ezel/5CC"
+    Mode: 0 
+  - SID: "Ezel/6CC"
+    Mode: 0 
+  - SID: "Ezel/7CC"
+    Mode: 0 
+  - SID: "Ezel/8CC"
+    Mode: 0 
+  - SID: "Ezel/9CC"
+    Mode: 0 
+  - SID: "Ezel/Epilogue"
+    Mode: 0 
+  - SID: Celeste/1
+    Mode: 0 # A-Side
+  - SID: Celeste/1
+    Mode: 1 # B-Side
+  - SID: Celeste/1
+    Mode: 2 # C-Side
+  - SID: Celeste/2
+    Mode: 0
+  - SID: Celeste/2
+    Mode: 1
+  - SID: Celeste/2
+    Mode: 2
+  - SID: Celeste/3
+    Mode: 0
+  - SID: Celeste/3
+    Mode: 1
+  - SID: Celeste/3
+    Mode: 2
+  - SID: Celeste/4
+    Mode: 0
+  - SID: Celeste/4
+    Mode: 1
+  - SID: Celeste/4
+    Mode: 2
+  - SID: Celeste/5
+    Mode: 0
+  - SID: Celeste/5
+    Mode: 1
+  - SID: Celeste/5
+    Mode: 2
+  - SID: Celeste/6
+    Mode: 0
+  - SID: Celeste/6
+    Mode: 1
+  - SID: Celeste/6
+    Mode: 2
+  - SID: Celeste/7
+    Mode: 0
+  - SID: Celeste/7
+    Mode: 1
+  - SID: Celeste/7
+    Mode: 2
+  - SID: Celeste/9
+    Mode: 0
+  - SID: Celeste/9
+    Mode: 1
+  - SID: Celeste/9
+    Mode: 2
+  - SID: Celeste/0
+    Mode: 0
+  - SID: Celeste/8
+    Mode: 0
+  - SID: Celeste/10
+    Mode: 0
+- Name: CCH
+  LongName: Expert Labyrinth 2Dash [Ezel's CC-Sides] (H)
+  RepeatRooms: true
+  EnterUnknown: false
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Labyrinth
+  Length: Medium
+  Dashes: Two
+  Difficulty: Expert
+  EnabledMaps:
+  - SID: "Ezel/1CC"
+    Mode: 0
+  - SID: "Ezel/2CC"
+    Mode: 0 
+  - SID: "Ezel/3CC"
+    Mode: 0 
+  - SID: "Ezel/4CC"
+    Mode: 0 
+  - SID: "Ezel/5CC"
+    Mode: 0 
+  - SID: "Ezel/6CC"
+    Mode: 0 
+  - SID: "Ezel/7CC"
+    Mode: 0 
+  - SID: "Ezel/8CC"
+    Mode: 0 
+  - SID: "Ezel/9CC"
+    Mode: 0 
+  - SID: "Ezel/Epilogue"
+    Mode: 0 
+  - SID: Celeste/1
+    Mode: 0 # A-Side
+  - SID: Celeste/1
+    Mode: 1 # B-Side
+  - SID: Celeste/1
+    Mode: 2 # C-Side
+  - SID: Celeste/2
+    Mode: 0
+  - SID: Celeste/2
+    Mode: 1
+  - SID: Celeste/2
+    Mode: 2
+  - SID: Celeste/3
+    Mode: 0
+  - SID: Celeste/3
+    Mode: 1
+  - SID: Celeste/3
+    Mode: 2
+  - SID: Celeste/4
+    Mode: 0
+  - SID: Celeste/4
+    Mode: 1
+  - SID: Celeste/4
+    Mode: 2
+  - SID: Celeste/5
+    Mode: 0
+  - SID: Celeste/5
+    Mode: 1
+  - SID: Celeste/5
+    Mode: 2
+  - SID: Celeste/6
+    Mode: 0
+  - SID: Celeste/6
+    Mode: 1
+  - SID: Celeste/6
+    Mode: 2
+  - SID: Celeste/7
+    Mode: 0
+  - SID: Celeste/7
+    Mode: 1
+  - SID: Celeste/7
+    Mode: 2
+  - SID: Celeste/9
+    Mode: 0
+  - SID: Celeste/9
+    Mode: 1
+  - SID: Celeste/9
+    Mode: 2
+  - SID: Celeste/0
+    Mode: 0
+  - SID: Celeste/8
+    Mode: 0
+  - SID: Celeste/10
+    Mode: 0

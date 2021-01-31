@@ -3,10 +3,10 @@ ASide:
     Holes:
     - Side: Down
       Idx: 0
-      Kind: inout
+      Kind: in
     - Side: Down
       Idx: 1
-      Kind: inout
+      Kind: in
     - Side: Left
       Idx: 0
       Kind: unknown
@@ -232,9 +232,6 @@ ASide:
     - Side: Left
       Idx: 0
       Kind: out
-      ReqOut:
-         Dashes: one
-         Difficulty: hard
     - Side: Right
       Idx: 0
       Kind: in
@@ -247,6 +244,19 @@ ASide:
     - Side: Up
       Idx: 0
       Kind: none
+    InternalEdges:
+    - Split: LeftToRight # this room normally goes from right to left so this weird reverse stuff is done
+      ReqOut: # reverse
+        Dashes: two
+        Difficulty: expert
+      ReqIn: # forwards
+        Dashes: one
+        Difficulty: hard
+    ExtraSpace:
+    - X: 0
+      Y: -24
+      Width: 800
+      Height: 32
   - Room: "ch2-peace-075"
     Holes:
     - Side: Left
@@ -357,16 +367,16 @@ ASide:
       Idx: 0
       Kind: none
     InternalEdges:
-    - Split: LeftToRight
-      ReqOut:
-        Dashes: one
-        Difficulty: hard
-      ReqIn:
+    - Split: LeftToRight # another wack case of room that normally heads left
+      ReqOut: # reverse
         Or:
         - Dashes: two
           Difficulty: normal
         - Dashes: zero
           Difficulty: hard
+      ReqIn: # forwards
+        Dashes: one
+        Difficulty: hard
     Tweaks:
     - Name: "jumpThru"
       ID: 1584

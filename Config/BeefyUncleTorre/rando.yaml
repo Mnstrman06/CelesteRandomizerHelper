@@ -59,6 +59,8 @@ Rulesets:
     Mode: 0
   - SID: "BeefyUncleTorre/map/6"
     Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 1 # void B
 - Name: G_B
   LongName: Glyph B
   RepeatRooms: true
@@ -84,6 +86,8 @@ Rulesets:
     Mode: 0
   - SID: "BeefyUncleTorre/map/6"
     Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 1
 - Name: G_C
   LongName: Glyph C
   RepeatRooms: true
@@ -109,6 +113,8 @@ Rulesets:
     Mode: 0
   - SID: "BeefyUncleTorre/map/6"
     Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 1
 - Name: G_D
   LongName: Glyph D
   RepeatRooms: true
@@ -133,6 +139,332 @@ Rulesets:
   - SID: "BeefyUncleTorre/map/5"
     Mode: 0
   - SID: "BeefyUncleTorre/map/6"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 1
+- Name: G_E
+  LongName: Glyph E
+  RepeatRooms: true
+  EnterUnknown: true
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Pathway
+  Length: Short
+  Dashes: One
+  Difficulty: Hard
+  DifficultyEagerness: None
+  EnabledMaps:
+  - SID: "BeefyUncleTorre/map/1"
+    Mode: 0 # A-Side
+  - SID: "BeefyUncleTorre/map/2"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/3"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/4"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/5"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 1
+  - SID: Celeste/1
+    Mode: 0 # A-Side
+  - SID: Celeste/1
+    Mode: 1 # B-Side
+  - SID: Celeste/1
+    Mode: 2 # C-Side
+  - SID: Celeste/2
+    Mode: 0
+  - SID: Celeste/2
+    Mode: 1
+  - SID: Celeste/2
+    Mode: 2
+  - SID: Celeste/3
+    Mode: 0
+  - SID: Celeste/3
+    Mode: 1
+  - SID: Celeste/3
+    Mode: 2
+  - SID: Celeste/4
+    Mode: 0
+  - SID: Celeste/4
+    Mode: 1
+  - SID: Celeste/4
+    Mode: 2
+  - SID: Celeste/5
+    Mode: 0
+  - SID: Celeste/5
+    Mode: 1
+  - SID: Celeste/5
+    Mode: 2
+  - SID: Celeste/6
+    Mode: 0
+  - SID: Celeste/6
+    Mode: 1
+  - SID: Celeste/6
+    Mode: 2
+  - SID: Celeste/7
+    Mode: 0
+  - SID: Celeste/7
+    Mode: 1
+  - SID: Celeste/7
+    Mode: 2
+  - SID: Celeste/9
+    Mode: 0
+  - SID: Celeste/9
+    Mode: 1
+  - SID: Celeste/9
+    Mode: 2
+  - SID: Celeste/0
+    Mode: 0
+  - SID: Celeste/8
+    Mode: 0
+  - SID: Celeste/10
+    Mode: 0
+- Name: G_F
+  LongName: Glyph F
+  RepeatRooms: true
+  EnterUnknown: true
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Pathway
+  Length: Short
+  Dashes: One
+  Difficulty: Expert
+  DifficultyEagerness: None
+  EnabledMaps:
+  - SID: "BeefyUncleTorre/map/1"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/2"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/3"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/4"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/5"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 1
+  - SID: Celeste/1
+    Mode: 0 # A-Side
+  - SID: Celeste/1
+    Mode: 1 # B-Side
+  - SID: Celeste/1
+    Mode: 2 # C-Side
+  - SID: Celeste/2
+    Mode: 0
+  - SID: Celeste/2
+    Mode: 1
+  - SID: Celeste/2
+    Mode: 2
+  - SID: Celeste/3
+    Mode: 0
+  - SID: Celeste/3
+    Mode: 1
+  - SID: Celeste/3
+    Mode: 2
+  - SID: Celeste/4
+    Mode: 0
+  - SID: Celeste/4
+    Mode: 1
+  - SID: Celeste/4
+    Mode: 2
+  - SID: Celeste/5
+    Mode: 0
+  - SID: Celeste/5
+    Mode: 1
+  - SID: Celeste/5
+    Mode: 2
+  - SID: Celeste/6
+    Mode: 0
+  - SID: Celeste/6
+    Mode: 1
+  - SID: Celeste/6
+    Mode: 2
+  - SID: Celeste/7
+    Mode: 0
+  - SID: Celeste/7
+    Mode: 1
+  - SID: Celeste/7
+    Mode: 2
+  - SID: Celeste/9
+    Mode: 0
+  - SID: Celeste/9
+    Mode: 1
+  - SID: Celeste/9
+    Mode: 2
+  - SID: Celeste/0
+    Mode: 0
+  - SID: Celeste/8
+    Mode: 0
+  - SID: Celeste/10
+    Mode: 0
+- Name: G_G
+  LongName: Glyph G
+  RepeatRooms: true
+  EnterUnknown: true
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Pathway
+  Length: Short
+  Dashes: Two
+  Difficulty: Hard
+  DifficultyEagerness: None
+  EnabledMaps:
+  - SID: "BeefyUncleTorre/map/1"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/2"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/3"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/4"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/5"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 1
+  - SID: Celeste/1
+    Mode: 0 # A-Side
+  - SID: Celeste/1
+    Mode: 1 # B-Side
+  - SID: Celeste/1
+    Mode: 2 # C-Side
+  - SID: Celeste/2
+    Mode: 0
+  - SID: Celeste/2
+    Mode: 1
+  - SID: Celeste/2
+    Mode: 2
+  - SID: Celeste/3
+    Mode: 0
+  - SID: Celeste/3
+    Mode: 1
+  - SID: Celeste/3
+    Mode: 2
+  - SID: Celeste/4
+    Mode: 0
+  - SID: Celeste/4
+    Mode: 1
+  - SID: Celeste/4
+    Mode: 2
+  - SID: Celeste/5
+    Mode: 0
+  - SID: Celeste/5
+    Mode: 1
+  - SID: Celeste/5
+    Mode: 2
+  - SID: Celeste/6
+    Mode: 0
+  - SID: Celeste/6
+    Mode: 1
+  - SID: Celeste/6
+    Mode: 2
+  - SID: Celeste/7
+    Mode: 0
+  - SID: Celeste/7
+    Mode: 1
+  - SID: Celeste/7
+    Mode: 2
+  - SID: Celeste/9
+    Mode: 0
+  - SID: Celeste/9
+    Mode: 1
+  - SID: Celeste/9
+    Mode: 2
+  - SID: Celeste/0
+    Mode: 0
+  - SID: Celeste/8
+    Mode: 0
+  - SID: Celeste/10
+    Mode: 0
+- Name: G_H
+  LongName: Glyph H
+  RepeatRooms: true
+  EnterUnknown: true
+  Variants: true
+  Lights: On
+  Darkness: Never
+  Algorithm: Pathway
+  Length: Short
+  Dashes: Two
+  Difficulty: Expert
+  DifficultyEagerness: None
+  EnabledMaps:
+  - SID: "BeefyUncleTorre/map/1"
+    Mode: 0 
+  - SID: "BeefyUncleTorre/map/2"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/3"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/4"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/5"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 0
+  - SID: "BeefyUncleTorre/map/6"
+    Mode: 1
+  - SID: Celeste/1
+    Mode: 0 # A-Side
+  - SID: Celeste/1
+    Mode: 1 # B-Side
+  - SID: Celeste/1
+    Mode: 2 # C-Side
+  - SID: Celeste/2
+    Mode: 0
+  - SID: Celeste/2
+    Mode: 1
+  - SID: Celeste/2
+    Mode: 2
+  - SID: Celeste/3
+    Mode: 0
+  - SID: Celeste/3
+    Mode: 1
+  - SID: Celeste/3
+    Mode: 2
+  - SID: Celeste/4
+    Mode: 0
+  - SID: Celeste/4
+    Mode: 1
+  - SID: Celeste/4
+    Mode: 2
+  - SID: Celeste/5
+    Mode: 0
+  - SID: Celeste/5
+    Mode: 1
+  - SID: Celeste/5
+    Mode: 2
+  - SID: Celeste/6
+    Mode: 0
+  - SID: Celeste/6
+    Mode: 1
+  - SID: Celeste/6
+    Mode: 2
+  - SID: Celeste/7
+    Mode: 0
+  - SID: Celeste/7
+    Mode: 1
+  - SID: Celeste/7
+    Mode: 2
+  - SID: Celeste/9
+    Mode: 0
+  - SID: Celeste/9
+    Mode: 1
+  - SID: Celeste/9
+    Mode: 2
+  - SID: Celeste/0
+    Mode: 0
+  - SID: Celeste/8
+    Mode: 0
+  - SID: Celeste/10
     Mode: 0
 Backgrounds:
 - Texture: "bgs/beefyuncletorre/clouds/0"

@@ -3,115 +3,106 @@ ASide:
    Holes:
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Left
      Idx: 0
      Kind: inout
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
      Kind: out
-     ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: hard
- - Room: "I-01b"
-   Holes:
-   - Side: Down
-     Idx: 0
-     Kind: none
-   - Side: Down
-     Idx: 1
-     Kind: none
-   - Side: Down
-     Idx: 2
-     Kind: none
-   - Side: Down
-     Idx: 3
-     Kind: none
-   - Side: Left
-     Idx: 0
-     Kind: in
-   - Side: Right
-     Idx: 0
-     Kind: out
-     ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: hard
+     ReqOut:
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: hard
+# - Room: "I-01b" this room is impossible, only in randomizer? help me please why does this happen
+#   Holes:
+#   - Side: Down
+#     Idx: 0
+#     Kind: unknown
+#   - Side: Down
+#     Idx: 1
+#     Kind: unknown
+#   - Side: Down
+#     Idx: 2
+#     Kind: unknown
+#   - Side: Down
+#     Idx: 3
+#     Kind: unknown
+#   - Side: Left
+#     Idx: 0
+#     Kind: in
+#   - Side: Right
+#     Idx: 0
+#     Kind: out
+#     ReqBoth:
+#       Or:
+#       - Dashes: two
+#         Difficulty: hard
+#       - Dashes: one
+#         Difficulty: hard
  - Room: "I-01c"
    Holes:
    - Side: Right
      Idx: 0
      Kind: out
      ReqOut:
-         Dashes: one
-         Difficulty: hard
+       Dashes: one
+       Difficulty: hard
    - Side: Left
      Idx: 0
      Kind: in
      ReqIn:
-         Dashes: one
-         Difficulty: hard
+       Dashes: one
+       Difficulty: hard
  - Room: "I-02a" 
    Hub: true
    Holes:
    - Side: Left
-     Idx: 0
-     Kind: inout
-     ReqOut:
-         Or:
-         - Dashes: one 
-           Difficulty: expert
-         - Dashes: two
-           Difficulty: hard
-   - Side: Left
      Idx: 1
      Kind: inout
-   - Side: Up
-     Idx: 0
-     Kind: inout
-     ReqIn:
-         Or:
-         - Dashes: one 
-           Difficulty: expert
-         - Dashes: two
-           Difficulty: hard
      ReqOut:
-         Or:
-         - Dashes: one
-           Difficulty: hard
-           Key: true
-           KeyholeID: 1252 # 2nd keyhole id is 1253
-   - Side: Right
-     Idx: 0
-     Kind: inout
-#   InternalEdges:
-#     - Split: "TopToBottom"   
-#       ReqOut:
-#          Or:
-#          - Dashes: one
-#            Difficulty: hard
-#            Key: true
-#            KeyholeID: 1252 # 2nd keyhole id is 1253
-#       ReqIn:
-#          Or:
-#          - Dashes: one 
-#            Difficulty: expert
-#          - Dashes: two
-#            Difficulty: hard
+       Or:
+       - Dashes: one 
+         Difficulty: expert
+       - Dashes: two
+         Difficulty: hard
+   InternalEdges:
+   - To: "top"
+     ReqOut:
+       Dashes: one
+       Difficulty: hard
+       Key: true
+       KeyholeID: 1252
+       KeyholeID: 1253
+     ReqIn:
+       Or:
+       - Dashes: one 
+         Difficulty: expert
+       - Dashes: two
+         Difficulty: hard
+   Subrooms:
+   - Room: "top"
+     Holes:
+     - Side: Left
+       Idx: 0
+       Kind: inout
+     - Side: Up
+       Idx: 0
+       Kind: inout
+     - Side: Right
+       Idx: 0
+       Kind: inout
    Tweaks:
     - Name: "exitBlock"
       ID: 491
@@ -129,97 +120,97 @@ ASide:
    Holes:
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Left
      Idx: 0
      Kind: inout
      ReqBoth:
-         Dashes: zero
-         Difficulty: hard
+       Dashes: zero
+       Difficulty: hard
    InternalEdges:
    - Collectable: 0 
      ReqOut:
-         Dashes: zero
-         Difficulty: hard
+       Dashes: zero
+       Difficulty: hard
  - Room: "I-02c"
    Holes:
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 6
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
      Kind: inout
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: hard
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: hard
    InternalEdges:
    - Collectable: 0 
      ReqOut:
-           Or:
-           - Dashes: two
-             Difficulty: hard
-           - Dashes: one
-             Difficulty: hard
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: hard
  - Room: "I-03a"
    Holes:
    - Side: Down
@@ -227,31 +218,31 @@ ASide:
      Kind: in
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
      Kind: out
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: hard
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: hard
  - Room: "I-03b"
    Holes:
    - Side: Left
@@ -259,16 +250,16 @@ ASide:
      Kind: in
    - Side: Left
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 0
      Kind: out
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: hard
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: hard
  - Room: "I-03c"
    Holes:
    - Side: Up
@@ -276,51 +267,51 @@ ASide:
      Kind: in
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
      Kind: out
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: expert
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: expert
  - Room: "I-04tutorial"
    Holes:
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Left
      Idx: 0
      Kind: in
@@ -328,11 +319,11 @@ ASide:
      Idx: 0
      Kind: out
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: hard
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: hard
  - Room: "I-04a"
    Holes:
    - Side: Left
@@ -340,109 +331,115 @@ ASide:
      Kind: in
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
      Kind: out
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: expert
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: expert
  - Room: "I-04b"
    Holes:
    - Side: Down
      Idx: 0
-     Kind: none
-   - Side: Down
-     Idx: 1
-     Kind: none
-   - Side: Down
-     Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
-   - Side: Up
-     Idx: 2
-     Kind: none
-   - Side: Up
-     Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Left
      Idx: 0
      Kind: inout
-   - Side: Right
-     Idx: 0
-     Kind: inout
    InternalEdges:
-     - Split: LeftToRight
-       ReqOut:
-         Or:
-         - Dashes: one
-           Difficulty: perfect
-         - Dashes: two
-           Difficulty: expert
-       ReqIn:
-           Dashes: two
-           Difficulty: perfect
+   - To: "right"
+     ReqOut:
+       Or:
+       - Dashes: one
+         Difficulty: perfect
+       - Dashes: two
+         Difficulty: expert
+     ReqIn:
+       Dashes: two
+       Difficulty: perfect
+   Subrooms:
+   - Room: "right"
+     Holes:
+     - Side: Right
+       Idx: 0
+       Kind: inout
+     - Side: Up
+       Idx: 2
+       Kind: unknown
+     - Side: Up
+       Idx: 3
+       Kind: unknown
+     - Side: Down
+       Idx: 1
+       Kind: unknown
+     - Side: Down
+       Idx: 2
+       Kind: unknown
  - Room: "I-04c"
    Holes:
    - Side: Down
      Idx: 0
-     Kind: none
-   - Side: Down
-     Idx: 1
-     Kind: none
-   - Side: Down
-     Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
-   - Side: Up
-     Idx: 1
-     Kind: none
-   - Side: Up
-     Idx: 2
-     Kind: none
-   - Side: Up
-     Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Left
      Idx: 0
      Kind: inout
-   - Side: Right
-     Idx: 0
-     Kind: inout
    InternalEdges:
-     - Split: LeftToRight
-       ReqOut:
-         Or:
-         - Dashes: one
-           Difficulty: expert
-         - Dashes: two
-           Difficulty: expert
-       ReqIn:
-         Or:
-         - Dashes: two
-           Difficulty: expert
+   - To: "right"
+     ReqOut:
+       Or:
+       - Dashes: one
+         Difficulty: expert
+       - Dashes: two
+         Difficulty: expert
+     ReqIn:
+       Or:
+       - Dashes: two
+         Difficulty: expert
+   Subrooms: 
+   - Room: "right"
+     Holes: 
+     - Side: Right
+       Idx: 0
+       Kind: inout
+     - Side: Down
+       Idx: 1
+       Kind: unknown
+     - Side: Down
+       Idx: 2
+       Kind: unknown
+     - Side: Up
+       Idx: 1
+       Kind: unknown
+     - Side: Up
+       Idx: 2
+       Kind: unknown
+     - Side: Up
+       Idx: 3
+       Kind: unknown
  - Room: "I-05a"
    Holes:
    - Side: Left
@@ -452,11 +449,11 @@ ASide:
      Idx: 0
      Kind: out
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: expert
-         - Dashes: one
-           Difficulty: expert
+       Or:
+       - Dashes: two
+         Difficulty: expert
+       - Dashes: one
+         Difficulty: expert
  - Room: "I-05b"
    Holes:
    - Side: Left
@@ -464,105 +461,105 @@ ASide:
      Kind: in
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
      Kind: out
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: expert
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: expert
  - Room: "I-05c"
    Holes:
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 6
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 7
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 8
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 9
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 10
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 5
      Kind: out
    - Side: Right
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Left
      Idx: 0
      Kind: in
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: expert
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: expert
  - Room: "I-06a"
    Holes:
    - Side: Down
@@ -570,241 +567,241 @@ ASide:
      Kind: in
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Left
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
      Kind: out
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 5
-     Kind: none
+     Kind: unknown
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: hard
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: hard
  - Room: "I-06b"
    Holes:
    - Side: Left
      Idx: 0
      Kind: in
      ReqIn:
-         Or:
-         - Dashes: two
-           Difficulty: expert
-         - Dashes: one
-           Difficulty: perfect
+       Or:
+       - Dashes: two
+         Difficulty: expert
+       - Dashes: one
+         Difficulty: perfect
    - Side: Right
      Idx: 0
      Kind: out
      ReqOut:
-         Or:
-         - Dashes: two
-           Difficulty: expert
-         - Dashes: one
-           Difficulty: perfect
+       Or:
+       - Dashes: two
+         Difficulty: expert
+       - Dashes: one
+         Difficulty: perfect
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 6
-     Kind: none
+     Kind: unknown
  - Room: "I-06c"
    Holes:
    - Side: Left
      Idx: 0
      Kind: in
      ReqIn:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: expert
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: expert
    - Side: Right
      Idx: 0
      Kind: out
      ReqOut:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: expert
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: expert
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 6
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 7
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 6
-     Kind: none
+     Kind: unknown
  - Room: "I-07a"
    Holes:
    - Side: Left
      Idx: 0
      Kind: in
      ReqIn:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: expert
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: expert
    - Side: Right
      Idx: 0
      Kind: out
      ReqOut:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: expert
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: expert
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 6
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 7
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 8
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 9
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 6
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 7
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 8
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 9
-     Kind: none
+     Kind: unknown
  - Room: "I-07b"
    Holes:
    - Side: Left
@@ -815,119 +812,119 @@ ASide:
      Kind: out
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 6
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 7
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 6
-     Kind: none
+     Kind: unknown
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: perfect
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: perfect
  - Room: "I-07c"
    Holes:
    - Side: Left
      Idx: 0
      Kind: in
      ReqIn:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: hard
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: hard
    - Side: Right
      Idx: 0
      Kind: out
      ReqOut:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: hard
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: hard
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 5
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 6
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 7
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 8
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 9
-     Kind: none
+     Kind: unknown
  - Room: "I-08a"
    Holes:
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Left
      Idx: 0
      Kind: in
@@ -935,11 +932,11 @@ ASide:
      Idx: 0
      Kind: out
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: expert
-         - Dashes: one
-           Difficulty: expert
+       Or:
+       - Dashes: two
+         Difficulty: expert
+       - Dashes: one
+         Difficulty: expert
  - Room: "I-08b"
    Hub: true
    Holes:
@@ -950,18 +947,18 @@ ASide:
        Dashes: one
    - Side: Right
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 1
      Kind: inout
    - Side: Right
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
      Kind: out
      ReqOut:
-         Dashes: one
+       Dashes: one
    Tweaks:
    - Name: "badelineBoost"
      ID: 11037
@@ -978,17 +975,17 @@ ASide:
      Idx: 0
      Kind: inout
      ReqBoth: 
-         Dashes: one
+       Dashes: one
    - Side: Up
      Idx: 1
      Kind: in
      ReqBoth: 
-         Dashes: one
+       Dashes: one
    - Side: Right
      Idx: 0
      Kind: inout
      ReqBoth:
-         Dashes: one
+       Dashes: one
    Tweaks:
    - Name: "invisibleBarrier"
      ID: 11654
@@ -1114,9 +1111,9 @@ ASide:
      Kind: inout
    - Side: Left
      Idx: 0
-     Kind: none
+     Kind: unknown
      ReqBoth:
-         Dashes: zero
+       Dashes: zero
    Tweaks:
    - Name: "jumpThru"
      ID: 10381
@@ -1128,7 +1125,7 @@ ASide:
    Holes:
    - Side: Left
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Left
      Idx: 1
      Kind: inout
@@ -1149,7 +1146,7 @@ ASide:
      Kind: inout
    - Side: Right
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 1
      Kind: inout
@@ -1167,19 +1164,19 @@ ASide:
      Idx: 0
      Kind: out
      ReqOut:
-         Dashes: one
-         Key: true
-         KeyholeID: 11666
+       Dashes: one
+       Key: true
+       KeyholeID: 11666
    InternalEdges:
    - Collectable: 0 
      ReqBoth:
-         Or:
-         - Dashes: two
-           Key: true
-           KeyholeID: 11666
-         - Dashes: one
-           Key: true
-           KeyholeID: 11666
+       Dashes: one
+       Key: true
+       KeyholeID: 10708
+       KeyholeID: 11666 
+       KeyholeID: 11668
+       KeyholeID: 11693
+       KeyholeID: 12389
    Tweaks:
    - Name: "exitBlock"
      ID: 11656
@@ -1202,19 +1199,19 @@ ASide:
    Holes:
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Left
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
      Kind: out
@@ -1223,117 +1220,117 @@ ASide:
      Kind: in
    - Side: Right
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 1
-     Kind: none
+     Kind: unknown
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: expert
-         - Dashes: one
-           Difficulty: expert
+       Or:
+       - Dashes: two
+         Difficulty: expert
+       - Dashes: one
+         Difficulty: expert
    InternalEdges:
    - Collectable: 0 
      ReqOut:
-           Or:
-           - Dashes: two
-             Difficulty: expert
-           - Dashes: one
-             Difficulty: expert
+       Or:
+       - Dashes: two
+         Difficulty: expert
+       - Dashes: one
+         Difficulty: expert
  - Room: "I-moonsingusource"
    Holes:
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Left
      Idx: 0
      Kind: inout
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: hard
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: hard
    InternalEdges:
    - Collectable: 0 
      ReqOut:
-           Or:
-           - Dashes: two
-             Difficulty: hard
-           - Dashes: one
-             Difficulty: hard
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: hard
  - Room: "I-moonhorizonation"
    Holes:
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 4
-     Kind: none
+     Kind: unknown
    - Side: Left
      Idx: 0
      Kind: inout
      ReqBoth:
-         Or:
-         - Dashes: two
-           Difficulty: hard
-         - Dashes: one
-           Difficulty: expert
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: expert
    InternalEdges:
    - Collectable: 0 
      ReqBoth:
-           Or:
-           - Dashes: two
-             Difficulty: hard
-           - Dashes: one
-             Difficulty: expert
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: expert
  - Room: "I-moonstubborness"
    Holes:
    - Side: Left
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
      Kind: inout
      ReqBoth:
-         Dashes: zero
-         Difficulty: hard
+       Dashes: zero
+       Difficulty: hard
    InternalEdges:
    - Collectable: 0
      ReqOut:
-         Dashes: zero
-         Difficulty: hard
+       Dashes: zero
+       Difficulty: hard
  - Room: "I-moonreconciliation"
    Holes:
    - Side: Left
@@ -1341,40 +1338,129 @@ ASide:
      Kind: inout
    - Side: Down
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 1
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 2
-     Kind: none
+     Kind: unknown
    - Side: Up
      Idx: 3
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 0
-     Kind: none
+     Kind: unknown
    - Side: Right
      Idx: 1
-     Kind: none
+     Kind: unknown
    InternalEdges:
    - Collectable: 0 
      ReqOut:
-         Dashes: zero
-         Difficulty: hard
-# golden room can't be added because there is no hole you can enter it from
+       Dashes: zero
+       Difficulty: hard
+ - Room: "end-golden"
+   Holes:
+   - Side: Left
+     Idx: 0
+     Kind: none
+   - Side: Left
+     Idx: 1
+     Kind: none
+   - Side: Left
+     Idx: 2
+     Kind: none
+   - Side: Left
+     Idx: 3
+     Kind: none
+   - Side: Left
+     Idx: 4
+     Kind: inout
+   - Side: Up
+     Idx: 0
+     Kind: inout
+   - Side: right
+     Idx: 0
+     Kind: none
+   - Side: right
+     Idx: 1
+     Kind: none
+   - Side: right
+     Idx: 2
+     Kind: none
+   InternalEdges:
+   - Split: TopToBottom
+     ReqOut:
+       Dashes: one
+       Difficulty: hard
+     ReqIn:
+       Dashes: one
+       Difficulty: hard
+   Tweaks:
+   - Name: "jumpThru"
+     ID: 11403
+     Update:
+       Width: 48
+   - Name: "spawn"
+     Update:
+       Add: true
+       X: 264
+       Y: 776
+   - Name: "spinner"
+     ID: 10423
+     Update:
+       Remove: true
+   - Name: "spinner"
+     ID: 10424
+     Update:
+       Remove: true
+   - Name: "spinner"
+     ID: 10976
+     Update:
+       Remove: true
+   - Name: "spinner"
+     ID: 11034
+     Update:
+       Remove: true
+   - Name: "spinner"
+     ID: 11038
+     Update:
+       Remove: true
+   - Name: "spinner"
+     ID: 11040
+     Update:
+       Remove: true
+   - Name: "spinner"
+     ID: 11184
+     Update:
+       Remove: true
+   - Name: "invisibleBarrier"
+     ID: 11186
+     Update:
+       Remove: true
+   - Name: "badelineBoost"
+     ID: 11269
+     Update:
+       Remove: true
+   - Name: "dreamBlock"
+     Update:
+       Add: true
+       X: 152
+       Y: 32
+       Width: 16
+       Height: 600
  - Room: "end-granny" 
    End: true
    Holes:
