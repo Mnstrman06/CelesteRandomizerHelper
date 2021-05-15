@@ -1,0 +1,54 @@
+Music:
+  - Name: "event:/Indecx/NikkoANewWorld"
+    Weight: 2
+  - Name: "event:/Bissy/conglomerate"
+    Weight: 5
+  - Name: "event:/BissyIndecxFusion/main"
+    Weight: 5
+  - Name: "event:/DanTKO/Nikko_Seashores"
+    Weight: 5
+  - Name: "event:/DanViv/Nikko_Underwater"
+    Weight: 5
+  - Name: "event:/Donker19Cheese/NikkoBittersweet"
+    Weight: 5
+#  - Name: "event:/Donker19Winter/heartSide"
+#    Weight: 5 - cant be used because progression
+# event:Donker19Winter/nikko - Cassette
+  - Name: "event:/Kaerra/superwave"
+    Weight: 2
+  - Name: "event:/Kaerra/thawed_hot_sauce"
+    Weight: 5
+  - Name: "event:/carelessAnon/NikkoDream"
+    Weight: 3
+  - Name: "event:/WinterCollab2020/NikkoEncriptedKnowledge"
+    Weight: 5
+  - Name: "event:/KAERRA/SAUCE_CRUSHER"
+    Weight: 51
+  - Name: "event:/Jackal/NikkoDarkSpeed"
+    Weight: 3
+  - Name: "event:/Cabob/FeryquitousSkyla" # honestly how do you spell this last part
+    Weight: 2
+  - Name: "event:/marcossanches/Animlky_Nikko_Dawn_Path"
+    Weight: 2
+  - Name: "event:/Cabob/NikkoRealityComposer"
+    Weight: 2
+  - Name: "event:/OkNano/NikkoSkyCityRemaster"
+    Weight: 2
+  - Name: "event:/Mastar/bleugh"
+    Weight: 2
+  - Name: "event:/carelessAnon/NikkoLastDream"
+    Weight: 5
+  - Name: "event:/Mastar/tripped_on_a_pebble"
+    Weight: 2
+  - Name: "event:/Sweetness"
+    Weight: 5
+  - Name: "event:/WinterCollabLobby/lobby" # cant add underground variant yet because parameters, same for prologue music
+    Weight: 2
+  - Name: "event:/WinterCollabLobby/overworld"
+    Weight: 1
+  - Name: "event:/WinterCollabLobby/secret_remix"
+    Weight: 5
+  - Name: "event:/viv_distorted"
+    Weight: 2
+  - Name: "event:/WinterCollab_Banana/sky_scaler"
+    Weight: 5

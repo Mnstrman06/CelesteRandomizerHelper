@@ -33,10 +33,10 @@ ASide:
      Idx: 0
      Kind: inout
      ReqIn:
-        Or:
-        - Dashes: two
-        - Dashes: one
-          Difficulty: hard
+       Or:
+       - Dashes: two
+       - Dashes: one
+         Difficulty: hard
    - Side: Down
      Idx: 0
      Kind: unknown
@@ -48,7 +48,7 @@ ASide:
      Kind: unknown
    - Side: Down 
      Idx: 3
-     Kind: unknown
+     Kind: none
    - Side: Down
      Idx: 4
      Kind: inout
@@ -82,31 +82,31 @@ ASide:
        Idx: 0
        Kind: inout
        ReqBoth:
-          Or:
-          - Dashes: one
-            Difficulty: hard
-            Key: true
-            KeyholeID: 196
-          - Dashes: two
-            Key: true
-            KeyholeID: 196
+         Or:
+         - Dashes: one
+           Difficulty: hard
+           Key: true
+           KeyholeID: 196
+         - Dashes: two
+           Key: true
+           KeyholeID: 196
  - Room: "C-03"
    Holes:
    - Side: Up
      Idx: 0 
      Kind: inout
      ReqBoth:
-         Or:
-         - Dashes: one
-           Difficulty: hard
-         - Dashes: two
+       Or:
+       - Dashes: one
+         Difficulty: hard
+       - Dashes: two
    InternalEdges:
      - Collectable: 0
    ReqOut:
-         Or:
-         - Dashes: one
-           Difficulty: hard
-         - Dashes: two
+     Or:
+     - Dashes: one
+       Difficulty: hard
+     - Dashes: two
  - Room: "C-04"
    Holes:
    - Side: Left
@@ -172,7 +172,7 @@ ASide:
    InternalEdges:
    - To: "right"
      ReqBoth:
-         Dashes: one
+       Dashes: one
    Subrooms:
    - Room: "right"
      Holes:
@@ -181,7 +181,7 @@ ASide:
        Kind: unknown
      - Side: Down
        Idx: 1
-       Kind: unknown
+       Kind: none
      - Side: Down
        Idx: 2
        Kind: unknown

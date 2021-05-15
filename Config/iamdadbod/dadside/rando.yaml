@@ -1,0 +1,10 @@
+Music:
+  - Name: "event:/iamdadbod_dadside_1_music"
+    Weight: 5
+  - Name: "event:/iamdadbod_dadside_2_music"
+    Weight: 1
+  - Name: "event:/iamdadbod_dadside_3_music"
+    Weight: 5
+  - Name: "event:/iamdadbod_dadside_4_music"
+    Weight: 2
+# dadside_5 and dadside_6 not included because they're empty

@@ -1,0 +1,17 @@
+Music:
+  - Name: "event:/Cavern/NightmareKingGrimm"
+    Weight: 2
+  - Name: "event:/RamenTwig/AllForNow"
+    Weight: 2
+  - Name: "event:/RamenTwig/BacktoTheHoller"
+    Weight: 2
+  - Name: "event:/RamenTwig/CultoftheZealous"
+    Weight: 2
+  - Name: "event:/RamenTwig/Initiatethought"
+    Weight: 2
+  - Name: "event:/RamenTwig/SneakyDriver"
+    Weight: 3
+  - Name: "event:/RamenTwig/TheMidnightWood"
+    Weight: 2 
+  - Name: "event:/RamenTwig/TrainingRoom"
+    Weight: 3

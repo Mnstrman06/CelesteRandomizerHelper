@@ -1,0 +1,19 @@
+Music:
+  - Name: "event:/eDselec_0_musicD1"
+    Weight: 2
+  - Name: "event:/eDselec_0_musicD2"
+    Weight: 5
+  - Name: "event:/eDselec_0_musicD3"
+    Weight: 5
+  - Name: "event:/eDselec_0_musicD4"
+    Weight: 3
+  - Name: "event:/eDselec_0_musicD5"
+    Weight: 1
+  - Name: "event:/eDselec_0_musicD6"
+    Weight: 3
+  - Name: "event:/eDselec_0_musicD7"
+    Weight: 5
+  - Name: "event:/eDselec_0_musicD8"
+    Weight: 3
+  - Name: "event:/eDselec_0_musicD9"
+    Weight: 3

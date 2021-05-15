@@ -392,7 +392,7 @@ ASide:
        Kind: unknown
      - Side: Down
        Idx: 1
-       Kind: unknown
+       Kind: none
      - Side: Down
        Idx: 2
        Kind: unknown
@@ -1205,7 +1205,7 @@ ASide:
      Kind: unknown
    - Side: Down
      Idx: 0
-     Kind: unknown
+     Kind: none
    - Side: Right
      Idx: 2
      Kind: unknown

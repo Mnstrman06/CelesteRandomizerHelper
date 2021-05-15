@@ -26,8 +26,8 @@ ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus but idk
      Idx: 0
      Kind: out
      ReqBoth:
-           Dashes: two
-           Difficulty: hard
+       Dashes: two
+       Difficulty: hard
  - Room: "G-02"
    Holes:
    - Side: Down
@@ -41,28 +41,28 @@ ASide: # MANY MANY MANY areas you can open with some tweaks to jumpthrus but idk
      Kind: unknown
    - Side: Down
      Idx: 3
-     Kind: unknown
+     Kind: none
    - Side: Down
      Idx: 4
-     Kind: unknown
+     Kind: none
    - Side: Down
      Idx: 5
-     Kind: unknown
+     Kind: none
    - Side: Down
      Idx: 6
      Kind: unknown
    - Side: Down
      Idx: 7
-     Kind: unknown
+     Kind: none
    - Side: Down
      Idx: 8
      Kind: unknown
    - Side: Down
      Idx: 9
-     Kind: unknown
+     Kind: none
    - Side: Down
      Idx: 10
-     Kind: unknown
+     Kind: none
    - Side: Up
      Idx: 0
      Kind: unknown

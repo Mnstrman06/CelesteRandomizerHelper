@@ -1,0 +1,17 @@
+Music:
+  - Name: "event:/Donkeer19/solarmorse"
+    Weight: 0.1 # radeline
+  - Name: "event:/Donker19/solaris1"
+    Weight: 2
+  - Name: "event:/Solaris1"
+    Weight: 1
+# event:/Donker19_Solaris/solaris_cassette
+  - Name: "event:/powercyclesolaris"
+    Weight: 2
+  - Name: "event:/Donker19_solaristemple"
+    Weight: 1
+  - Name: "event:/Donker1919_Gooseworx"
+    Weight: 2
+  - Name: "event:/Donker19/Anamanaguchiplanet"
+    Weight: 5
+  - Name: "event:/songlaris3"

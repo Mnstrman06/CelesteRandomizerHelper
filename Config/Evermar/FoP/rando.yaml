@@ -1,0 +1,9 @@
+Music:
+  - Name: "event:/Evermar/Checkpoint1"
+    Weight: 2
+  - Name: "event:/Evermar/Checkpoint2"
+    Weight: 2
+  - Name: "event:/Evermar/Checkpoint3"
+    Weight: 3
+  - Name: "event:/Evermar/Scifi"
+    Weight: 2

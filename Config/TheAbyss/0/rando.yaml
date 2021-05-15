@@ -1,0 +1,13 @@
+Music:
+  - Name: "event:/TheAbyss/CreoDimension"
+    Weight: 5
+  - Name: "event:/TheAbyss/GymnopedieNo1"
+    Weight: 2
+  - Name: "event:/TheAbyss/HollowKnightDirtmouth"
+    Weight: 1
+  - Name: "event:/TheAbyss/HollowKnightRestingGrounds"
+    Weight: 2
+  - Name: "event:/TheAbyss/SkyrimSecunda"
+    Weight: 2
+  - Name: "event:/TheAbyss/StardewValleyCalicoDesert"
+    Weight: 5

@@ -1,0 +1,21 @@
+Music: 
+  - Name: "event:/Cabob/AE3TVStation"
+    Weight: 1
+  - Name: "event:/Cabob/ApeEscape3EversummerIsland"
+    Weight: 2
+  - Name: "event:/Cabob/ApeEscape3EversummerIsland2"
+    Weight: 3
+  - Name: "event:/Cabob/ApeEscape3FreezeContinent"
+    Weight: 3
+  - Name: "event:/Cabob/ApeEscape3MountAmazing2"
+    Weight: 2
+  - Name: "event:/Cabob/ApeEscape3SuperMonkeyThrow"
+    Weight: 3
+  - Name: "event:/Cabob/ApeEscape3TomoukiCity2"
+    Weight: 2
+  - Name: "event:/Cabob/ApeEscape3Winterville"
+    Weight: 5
+  - Name: "event:/Cabob/ApeEscape3CoralCove"
+    Weight: 5
+  - Name: "event:/Cabob/ApeEscape3SnowyMammoth"
+    Weight: 5

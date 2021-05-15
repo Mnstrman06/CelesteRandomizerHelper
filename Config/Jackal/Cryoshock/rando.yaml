@@ -1,0 +1,13 @@
+Music:
+  - Name: "event:/Jackal/BeneathTheTrees"
+    Weight: 5
+  - Name: "event:/Jackal/Cryoshock_Title_Music"
+    Weight: 1
+  - Name: "event:/Jackal/FF_AutumnTreesSlowed"
+    Weight: 2
+  - Name: "event:/Jackal/FrostMan8Bit"
+    Weight: 5
+  - Name: "event:/Jackal/InYourHands"
+    Weight: 5
+  - Name: "event:/Jackal/SyntheticFuture"
+    Weight: 5
