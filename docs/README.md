@@ -4,22 +4,22 @@ A Mod for the [Celeste Randomizer](https://github.com/rhelmot/CelesteRandomizer)
 This mod currently supports [Ezel's CC-Sides](https://gamebanana.com/maps/207309) and [Glyph](https://gamebanana.com/maps/209296).
 It also puts the music of the following mods into the randomizer:
 
-Glyph
-Frozen Heights
-Solaris
-eDselec
-Flavors of Pi
-Seaside C-Side
-Dadsides
-Cryoshock
-Anubi
-Knipe
-Fourth Dimension
-The Abyss
-Foe-En Monolith
-TemporalShrine
-MidnightAquarium
-Winter Collab
+* Glyph
+* Frozen Heights
+* Solaris
+* eDselec
+* Flavors of Pi
+* Seaside C-Side
+* Dadsides
+* Cryoshock
+* Anubi
+* Knipe
+* Fourth Dimension
+* The Abyss
+* Foe-En Monolith
+* Temporal Shrine
+* Midnight Aquarium
+* Winter Collab
 
 Overtime this will be expanded to support more and more mods.
 
