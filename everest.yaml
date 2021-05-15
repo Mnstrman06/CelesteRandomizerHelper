@@ -1,8 +1,8 @@
 - Name: CelesteRandomizerHelper
-  Version: 1.4.3
+  Version: 1.5.1
   Dependencies:
     - Name: Everest
-      Version: 1.2171.0
+      Version: 1.2803.0
     - Name: Randomizer
       Version: 0.6.6
     - Name: SafeRespawnCrumble
