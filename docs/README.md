@@ -20,6 +20,7 @@ It also puts the music of the following mods into the randomizer:
 * Temporal Shrine
 * Midnight Aquarium
 * Winter Collab
+* Into The Jungle
 
 Overtime this will be expanded to support more and more mods.
 
