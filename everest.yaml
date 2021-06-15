@@ -1,5 +1,5 @@
 - Name: CelesteRandomizerHelper
-  Version: 1.5.2
+  Version: 1.5.2.1
   Dependencies:
     - Name: Everest
       Version: 1.2803.0
