@@ -357,12 +357,6 @@ ASide:
     - Side: Down
       Idx: 0
       Kind: none
-    - Side: Right
-      Idx: 0
-      Kind: none
-    - Side: Right
-      Idx: 1
-      Kind: none
     - Side: Up
       Idx: 0
       Kind: none
@@ -433,9 +427,6 @@ ASide:
     - Side: Left
       Idx: 0
       Kind: inout
-    - Side: Left
-      Idx: 1
-      Kind: none
     - Side: Down
       Idx: 0
       Kind: inout

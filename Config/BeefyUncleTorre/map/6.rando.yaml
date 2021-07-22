@@ -9,13 +9,13 @@ ASide:
       Kind: in
     - Side: Left
       Idx: 0
-      Kind: unknown
+      Kind: none
     - Side: Up
       Idx: 0
-      Kind: unknown
+      Kind: none
     - Side: Right
       Idx: 0
-      Kind: unknown
+      Kind: none
     InternalEdges:
     - Warp: "crane-void-00"
       To: "main"
@@ -26,7 +26,7 @@ ASide:
       Update:
         Add: true
         X: 208
-        Y: 108
+        Y: 124
         Width: 16
         Height: 16
         Direction: Up
@@ -596,13 +596,13 @@ ASide:
       Kind: in
     - Side: Left
       Idx: 0
-      Kind: unknown
+      Kind: none
     - Side: Up
       Idx: 0
-      Kind: unknown
+      Kind: none
     - Side: Right
       Idx: 0
-      Kind: unknown
+      Kind: none
       ReqEnd:
         Dashes: zero
     Tweaks:
