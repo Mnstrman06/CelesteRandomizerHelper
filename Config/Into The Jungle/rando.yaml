@@ -1,35 +1,35 @@
 Music:
-  - Name: "ITJ_BSide_remixes/CH1_by_Tensai"
+  - Name: "event:/ITJ_Bside_remixes/CH1_by_Tensai"
     Weight: 5
-  - Name: "ITJ_BSide_remixes/CH2_By_Tortoise"
+  - Name: "event:/ITJ_Bside_remixes/CH2_By_Tortoise"
     Weight: 5
-  - Name: "ITJ_BSide_remixes/CH3_By_Nikko"
+  - Name: "event:/ITJ_Bside_remixes/CH3_By_Nikko"
     Weight: 5
-  - Name: "ITJ_BSide_remixes/CH4_By_Cephx"
+  - Name: "event:/ITJ_Bside_remixes/CH4_By_Cephx_"
     Weight: 5
-  - Name: "ITJ_BSide_remixes/CH5_By_Marshall"
+  - Name: "event:/ITJ_Bside_remixes/CH5_By_Marshall"
     Weight: 5
-  - Name: "JungleMusicByTg90/tg90_cjc_c1"
+  - Name: "event:/JungleMusicByTg90/tg90_cjc_c1"
     Weight: 5
-  - Name: "JungleMusicByTg90/tg90_cjc_c2_p1"
+  - Name: "event:/JungleMusicByTg90/tg90_cjc_c2_p1"
     Weight: 5
-  - Name: "JungleMusicByTg90/tg90_cjc_c2_p2"
+  - Name: "event:/JungleMusicByTg90/tg90_cjc_c2_p2"
     Weight: 5
-  - Name: "JungleMusicByTg90/tg90_cjc_c3_p1"
+  - Name: "event:/JungleMusicByTg90/tg90_cjc_c3_p1"
     Weight: 5
-  - Name: "JungleMusicByTg90/tg90_cjc_c4_p1"
+  - Name: "event:/JungleMusicByTg90/tg90_cjc_c4_p1"
     Weight: 5
-  - Name: "JungleMusicByTg90/tg90_cjc_c4_p2"
+  - Name: "event:/JungleMusicByTg90/tg90_cjc_c4_p2"
     Weight: 5
-  - Name: "JungleMusicByTg90/tg90_cjc_c5_p1"
+  - Name: "event:/JungleMusicByTg90/tg90_cjc_c5_p1"
     Weight: 5
-  - Name: "JungleMusicByTg90/tg90_cjc_c5_p2"
+  - Name: "event:/JungleMusicByTg90/tg90_cjc_c5_p2"
     Weight: 5
-  - Name: "JungleMusicByTg90/tg90_cjc_epilogue"
+  - Name: "event:/JungleMusicByTg90/tg90_cjc_epilogue"
     Weight: 5
-  - Name: "JungleMusicByTg90/tg90_cjc_overworld001"
+  - Name: "event:/JungleMusicByTg90/tg90_cjc_overworld001"
     Weight: 5
-  - Name: "JungleMusicByTg90/tg90_cjc_prologue"
+  - Name: "event:/JungleMusicByTg90/tg90_cjc_prologue"
     Weight: 5
-  - Name: "JungleMusicByTg90/Untitled.jpeg"
+  - Name: "event:/JungleMusicByTg90/Untitled.jpeg"
     Weight: 5 # i dont even know why this song exists
