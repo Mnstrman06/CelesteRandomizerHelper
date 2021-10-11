@@ -707,8 +707,8 @@ ASide:
         X: 606
         Y: 69
   - Room: "g-04"
-    Holes:
     End: true
+    Holes:
     - Side: Up
       Idx: 0
       Kind: none
