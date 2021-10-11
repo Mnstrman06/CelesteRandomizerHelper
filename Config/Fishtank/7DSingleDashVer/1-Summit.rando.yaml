@@ -13,6 +13,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Down
       Idx: 0
       Kind: none
@@ -33,6 +35,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: in
@@ -59,6 +63,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: in
@@ -82,6 +88,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: in
@@ -96,6 +104,8 @@ ASide:
     - Side: Up
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Right
       Idx: 0
       Kind: none
@@ -122,6 +132,8 @@ ASide:
     - Side: Up
       Idx: 1
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Down
       Idx: 0
       Kind: in
@@ -130,6 +142,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Down
       Idx: 0
       Kind: in
@@ -181,6 +195,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: in
@@ -222,6 +238,8 @@ ASide:
     - Side: Up
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Right
       Idx: 0
       Kind: none
@@ -281,6 +299,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Down
       Idx: 0
       Kind: in
@@ -307,6 +327,8 @@ ASide:
     - Side: Up
       Idx: 5
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: in
@@ -333,6 +355,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Down
       Idx: 0
       Kind: in
@@ -344,6 +368,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: in
@@ -355,6 +381,8 @@ ASide:
     - Side: Up
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Right
       Idx: 0
       Kind: none
@@ -375,6 +403,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Down
       Idx: 0
       Kind: in
@@ -383,6 +413,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: in
@@ -394,6 +426,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: in
@@ -417,6 +451,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: in
@@ -431,6 +467,8 @@ ASide:
     - Side: Up
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Right
       Idx: 0
       Kind: none
@@ -457,6 +495,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Down
       Idx: 0
       Kind: in
@@ -483,6 +523,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: in
@@ -494,6 +536,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: in
@@ -508,6 +552,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: in
@@ -528,6 +574,8 @@ ASide:
     - Side: Up
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Right
       Idx: 0
       Kind: none
@@ -548,6 +596,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Down
       Idx: 0
       Kind: in
@@ -556,6 +606,8 @@ ASide:
     - Side: Up
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: in
@@ -570,6 +622,8 @@ ASide:
     - Side: Right
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Down
       Idx: 0
       Kind: in
@@ -593,6 +647,8 @@ ASide:
     - Side: Up
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: in
@@ -604,6 +660,8 @@ ASide:
     - Side: Up
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Right
       Idx: 0
       Kind: none
@@ -645,6 +703,8 @@ ASide:
     - Side: Up
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Left
       Idx: 0
       Kind: none
@@ -656,6 +716,8 @@ ASide:
     - Side: Up
       Idx: 0
       Kind: out
+      ReqOut: 
+        Dashes: one
     - Side: Right
       Idx: 0
       Kind: none
@@ -681,6 +743,7 @@ ASide:
       Idx: 3
       Kind: none
   - Room: "g-03"
+    End: true
     Holes:
     - Side: Up
       Idx: 0
@@ -701,7 +764,7 @@ ASide:
       Idx: 1
       Kind: none
     Tweaks:
-    - Name: "badelineBoost"
+    - Name: "heartGem"
       Update: 
         Add: true
         X: 606
