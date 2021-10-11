@@ -25,32 +25,37 @@ ASide:
          Difficulty: hard
        - Dashes: one
          Difficulty: hard
-# - Room: "I-01b" this room is impossible, only in randomizer? help me please why does this happen
-#   Holes:
-#   - Side: Down
-#     Idx: 0
-#     Kind: unknown
-#   - Side: Down
-#     Idx: 1
-#     Kind: unknown
-#   - Side: Down
-#     Idx: 2
-#     Kind: unknown
-#   - Side: Down
-#     Idx: 3
-#     Kind: unknown
-#   - Side: Left
-#     Idx: 0
-#     Kind: in
-#   - Side: Right
-#     Idx: 0
-#     Kind: out
-#     ReqBoth:
-#       Or:
-#       - Dashes: two
-#         Difficulty: hard
-#       - Dashes: one
-#         Difficulty: hard
+ - Room: "I-01b" 
+   Holes:
+   - Side: Down
+     Idx: 0
+     Kind: unknown
+   - Side: Down
+     Idx: 1
+     Kind: unknown
+   - Side: Down
+     Idx: 2
+     Kind: unknown
+   - Side: Down
+     Idx: 3
+     Kind: unknown
+   - Side: Left
+     Idx: 0
+     Kind: in
+   - Side: Right
+     Idx: 0
+     Kind: out
+     ReqBoth:
+       Or:
+       - Dashes: two
+         Difficulty: hard
+       - Dashes: one
+         Difficulty: hard
+   Tweaks:
+   - Name: "spring"
+     ID: 187
+     Update:
+       Y: 239
  - Room: "I-01c"
    Holes:
    - Side: Right

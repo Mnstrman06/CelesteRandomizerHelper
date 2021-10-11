@@ -1,13 +1,14 @@
 - Name: CelesteRandomizerHelper
-  Version: 1.5.2.6
+  Version: 1.6.0
   Dependencies:
     - Name: Everest
-      Version: 1.2994.0
+      Version: 1.3070.0
     - Name: Randomizer
-      Version: 0.6.6
+      Version: 0.7.7
     - Name: SafeRespawnCrumble
       Version: 1.1.0
+  OptionalDependencies:
     - Name: Glyph
-      Version: 2.3.0
+      Version: 2.3.1
     - Name: Ezel's CC-Sides
       Version: 1.8.6
